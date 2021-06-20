@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title>Practice Workforce</title>
+</head>
+
+<body>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"
+        integrity="sha512-VCHVc5miKoln972iJPvkQrUYYq7XpxXzvqNfiul1H4aZDwGBGC0lq373KNleaB2LpnC2a/iNfE5zoRYmB4TRDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const data = [{
+            "PRAC_CODE": "L84012",
+            "TOTAL_PATIENTS": 23205,
+            "GPPerNeedIndex": 0.0000070775,
+            "GPPlusANPPerNeedIndex": 0.0000082234,
+            "PNPerNeedIndex": 0.0000037106,
+            "AdminPerNeedIndex": 0.0000249242,
+            "GPToANPRatio": 6.1761904764
+        }, {
+            "PRAC_CODE": "J82112",
+            "TOTAL_PATIENTS": 24344,
+            "GPPerNeedIndex": 0.0000094015,
+            "GPPlusANPPerNeedIndex": 0.0000123616,
+            "PNPerNeedIndex": 0.0000028767,
+            "AdminPerNeedIndex": 0.0000229514,
+            "GPToANPRatio": 3.1760563386
+        }, {
+            "PRAC_CODE": "C84017",
+            "TOTAL_PATIENTS": 24999,
+            "GPPerNeedIndex": 0.0000156724,
+            "GPPlusANPPerNeedIndex": 0.0000156724,
+            "PNPerNeedIndex": 0.0000059807,
+            "AdminPerNeedIndex": 0.0000221284,
+            "GPToANPRatio": null
+        }, {
+            "PRAC_CODE": "A83011",
+            "TOTAL_PATIENTS": 33632,
+            "GPPerNeedIndex": 0.0000118089,
+            "GPPlusANPPerNeedIndex": 0.0000142501,
+            "PNPerNeedIndex": 0.0000017862,
+            "AdminPerNeedIndex": 0.000016999,
+            "GPToANPRatio": 4.8373671037
+        }, {
+            "PRAC_CODE": "J83002",
+            "TOTAL_PATIENTS": 28610,
+            "GPPerNeedIndex": 0.0000135651,
+            "GPPlusANPPerNeedIndex": 0.0000148723,
+            "PNPerNeedIndex": 0.000004179,
+            "AdminPerNeedIndex": 0.00002084,
+            "GPToANPRatio": 10.3775492955
+        }, {
+            "PRAC_CODE": "N81032",
+            "TOTAL_PATIENTS": 26370,
+            "GPPerNeedIndex": 0.0000095178,
+            "GPPlusANPPerNeedIndex": 0.0000107051,
+            "PNPerNeedIndex": 0.0000057826,
+            "AdminPerNeedIndex": 0.0000249063,
+            "GPToANPRatio": 8.0165289252
+        }, {
+            "PRAC_CODE": "C82009",
+            "TOTAL_PATIENTS": 26105,
+            "GPPerNeedIndex": 0.0000100921,
+            "GPPlusANPPerNeedIndex": 0.0000100921,
+            "PNPerNeedIndex": 0.0000038641,
+            "AdminPerNeedIndex": 0.0000225008,
+            "GPToANPRatio": null
+        }]
+        data.forEach(element => {
+            element.x = element.PRAC_CODE;
+        });
+
+
+        function backgroundColourGenerator(dataArray, PRAC_CODE) {
+            backgroundColorArray = [];
+            dataArray.forEach(element => {
+                if (element.PRAC_CODE == PRAC_CODE) {
+                    backgroundColorArray.push('red')
+                } else {
+                    backgroundColorArray.push('grey')
+                }
+            });
+            return backgroundColorArray
+        }
+
+        function generateBarChart(dataArray, yAxisKey, PRAC_CODE) {
+            data.sort(function (a, b) {
+                return a[yAxisKey] - b[yAxisKey];
+            });
+            backgroundColorArray = backgroundColourGenerator(dataArray, PRAC_CODE);
+            config = {
+                type: 'bar',
+                data: {
+                    datasets: [{
+                        label: yAxisKey,
+                        data: data,
+                        backgroundColor: backgroundColorArray,
+                        parsing: {
+                            yAxisKey: yAxisKey
+                        }
+                    }]
+                },
+                options: {}
+            };
+            return config
+        }
+
+        config = generateBarChart(data, 'GPToANPRatio', 'A83011')
+
+        var myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+        // Change 2nd bar to red (display).
+        myChart.datasets[0].bars[1].fillColor = "rgba(229,12,12,0.7)";
+        myChart.datasets[0].bars[1].strokeColor = "rgba(229,12,12,1)";
+
+        myChart.update();
+    </script>
+</body>
+
+</html>
