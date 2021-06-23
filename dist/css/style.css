@@ -1,0 +1,82 @@
+.description-percentage {
+    font-size: 1.6rem;
+
+}
+
+.card-title {
+    margin-bottom: 0.3rem;
+}
+
+.card-primary.card-outline.health-outcome-card {
+    border-top: 3px solid rgb(0, 94, 184, 0.4);
+}
+
+.card-primary.card-outline.experience-outcome-card {
+    border-top: 3px solid rgb(0, 150, 57, 0.4);
+}
+
+.card-primary.card-outline.workforce-outcome-card {
+    border-top: 3px solid rgb(0, 169, 206, 0.3);
+}
+
+.text-no-change {
+    color: darkgray;
+}
+
+.text-worsening {
+    color: rgba(218, 41, 28, 0.9);
+    /*red*/
+}
+
+.text-success {
+    color: rgb(0, 150, 57, 0.9);
+    /*green*/
+}
+
+.box-wrapper {
+    height: 30px;
+    position: relative;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.donut-wrapper {
+    position: relative;
+    max-height: 200px;
+    top: -20px;
+}
+
+.card {
+    border: 1px solid #eaecf3;
+    border-radius: .75rem;
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, .05);
+}
+
+.btn {
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, .05);
+}
+
+.main-header {
+    border-bottom: none;
+}
+
+.content-header h1 {
+    font-weight: bold;
+}
+
+.content-wrapper {
+    background-color: white;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto !important;
+}
+
+.card-body .row {
+    min-height: 230px;
+}
+
+.card-body canvas {
+    height: 100%;
+}

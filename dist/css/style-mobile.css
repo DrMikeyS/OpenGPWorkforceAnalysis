@@ -1,0 +1,37 @@
+        @media (max-width: 575.98px) {
+            .donut-wrapper {
+                top: 0px;
+                margin-bottom: 35px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .donut-wrapper {
+                top: 0;
+                margin-bottom: 25px;
+            }
+        }
+
+        @media (min-width: 576px) {
+            .content-wrapper {
+                max-width: 540px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .content-wrapper {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .content-wrapper {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .content-wrapper {
+                max-width: 1140px;
+            }
+        }
