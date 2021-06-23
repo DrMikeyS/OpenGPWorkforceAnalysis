@@ -5,7 +5,7 @@ var trenddata = []
 ods = getQuery().get('ods')
 type = getQuery().get('type')
 
-fetch('https://durhamstudenthealth.co.uk/api/practice?ods=' + ods)
+fetch('https://durhamstudenthealth.co.uk/api/practice?page=index&ods=' + ods)
     .then(function (resp) {
         resp.json().then(function (json) {
             data = json[type]
