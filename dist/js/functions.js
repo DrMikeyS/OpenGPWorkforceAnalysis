@@ -4,15 +4,14 @@ function getQuery() {
     return urlParams
 }
 
-
 //Generate background colour to highlight ODS code of interest
 function backgroundColourGenerator(dataArray, PRAC_CODE) {
     backgroundColorArray = [];
     dataArray.forEach(element => {
         if (element.PRAC_CODE == PRAC_CODE) {
-            backgroundColorArray.push('red')
+            backgroundColorArray.push('rgb(0, 94, 184,0.6)')
         } else {
-            backgroundColorArray.push('grey')
+            backgroundColorArray.push('rgb(100, 100, 100,0.6)')
         }
     });
     return backgroundColorArray
@@ -38,8 +37,10 @@ function generateRelativeNumbers(yAxisKey, denominator) {
 
 //Generate a line chart based on a variable
 function generateLineChart(yAxisKey, elementID, denominator = 'needIndex') {
-    generateRelativeNumbers(yAxisKey, denominator)
-    yAxisKey = yAxisKey + 'by' + denominator
+    if (denominator != 'raw') {
+        generateRelativeNumbers(yAxisKey, denominator)
+        yAxisKey = yAxisKey + 'by' + denominator
+    }
     tdata = trenddata.filter(x =>
         !isNaN(x[yAxisKey])
     );
@@ -55,7 +56,9 @@ function generateLineChart(yAxisKey, elementID, denominator = 'needIndex') {
                 data: tdata,
                 parsing: {
                     yAxisKey: yAxisKey
-                }
+                },
+                borderColor: 'rgb(0, 94, 184,0.6)',
+                tension: 0.1
             }]
         },
         options: {
@@ -81,8 +84,10 @@ function generateLineChart(yAxisKey, elementID, denominator = 'needIndex') {
 
 //Generate a bar chart based on a variable
 function generateBarChart(yAxisKey, PRAC_CODE, elementID, denominator) {
-    generateRelativeNumbers(yAxisKey, denominator)
-    yAxisKey = yAxisKey + 'by' + denominator
+    if (denominator != 'raw') {
+        generateRelativeNumbers(yAxisKey, denominator)
+        yAxisKey = yAxisKey + 'by' + denominator
+    }
     tdata = data.filter(x =>
         !isNaN(x[yAxisKey])
     );
@@ -127,12 +132,13 @@ function generateBarChart(yAxisKey, PRAC_CODE, elementID, denominator) {
     );
 }
 
-function generateCard(title, subtitle, chartelementid, yAxisKey, PRAC_CODE, column, denominator = 'needIndex') {
+function generateCard(title, subtitle, chartelementid, yAxisKey, PRAC_CODE, column, style, denominator = 'needIndex') {
     html = `<!-- Start Card-->
-    <div class="card card-primary card-outline health-outcome-card">
+    <div class="card card-primary card-outline ` + style + `-card">
         <div class="card-header">
             <h5 class="m-0">` + title + `</h5>
-            <h7 style="color:grey;">` + subtitle + `</h7>
+            <h7 style="color:grey;">` + subtitle + `</h7><br>
+            <small style="color:grey;"><a href="#" data-toggle="modal" data-target="#exampleModal">Change Denominator</a></small>
         </div>
         <div class="card-body">
         <h7>Comparison to other practices</h7>
@@ -158,6 +164,18 @@ function generateCard(title, subtitle, chartelementid, yAxisKey, PRAC_CODE, colu
     $('#col-' + column).append(html)
     setTimeout(function () {
         generateBarChart(yAxisKey, PRAC_CODE, chartelementid, denominator);
-        generateLineChart(yAxisKey, chartelementid);
+        generateLineChart(yAxisKey, chartelementid, denominator);
     }, 10);
+}
+
+function setAxes() {
+    //Set X-axis to be practice ODS code for bars
+    data.forEach(element => {
+        element.x = element.PRAC_NAME;
+    });
+
+    //Set X-axis to be Date for trend
+    trenddata.forEach(element => {
+        element.x = element.Date;
+    });
 }

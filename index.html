@@ -27,32 +27,33 @@
     <div class="wrapper">
 
         <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-
-            <h1>Open GP Workforce Data</h1>
-
+        <nav class="main-header navbar navbar-expand navbar-secondary navbar-light">
+            <div class="m-auto">
+                <h1>Open GP Workforce Data</h1>
+            </div>
         </nav>
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+        <div class="content-wrapper mt-3">
             <!-- Content Header (Page header) -->
             <div class="content-header">
-                <div class="container-fluid">
+                <div class="container-fluid mb-3">
                     <div class="row mb-2">
-                        <div class="col-6">
+                        <div class="col-sm-5">
                             <h1 class="m-0 text-dark" id="practice-name"></h1>
                             <h4 id="comparison-type"></h4>
+                            <a id="change-comparison"></a>
                         </div>
-                        <div class="col-6">
-                            <form action="index.html" method="get">
+                        <div class=" col-sm-6 offset-sm-1">
+                            <form action="index.html" method="get" class="form-inline">
                                 <div class="ui-widget">
-                                    <label for="autoSuggest">Change Practice: </label>
-                                    <input name="ods" id="autoSuggest" />
+                                    Change Practice:
+                                    <input name="ods" id="autoSuggest" class="form-control" />
                                     <input name="type" value="nearestNeighbour" type="hidden" />
-                                    <input type="submit">
+                                    <input class="btn btn-secondary" type="submit">
                                 </div>
                             </form>
                         </div>
@@ -110,6 +111,29 @@
     </div>
     <!-- ./wrapper -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Change denominator</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a id="need-index-link" class="btn btn-primary btn-block">Relative to Weighted Practice
+                        Population/Need Index</a>
+                    <a id="total-population-link" class="btn btn-primary btn-block">Relative to Raw Practice Total
+                        Population</a>
+                    <a id="raw-link" class="btn btn-primary btn-block">Raw Full Time Equivalent Numbers</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!-- REQUIRED SCRIPTS -->
 
     <!-- jQuery -->
@@ -119,9 +143,9 @@
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
     <script type="text/javascript" src="dist/js/functions.js"></script>
+    <script type="text/javascript" src="dist/js/globals.js"></script>
     <script type="text/javascript" src="dist/js/odscodes.js"></script>
     <script type="text/javascript" src="dist/js/odslookup.js"></script>
-    <script type="text/javascript" src="dist/js/data.js"></script>
     <script type="text/javascript" src="dist/js/page_index.js"></script>
     <script type="text/javascript">
         $(function () {

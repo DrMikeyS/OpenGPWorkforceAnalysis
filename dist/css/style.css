@@ -7,16 +7,20 @@
     margin-bottom: 0.3rem;
 }
 
-.card-primary.card-outline.health-outcome-card {
+.card-primary.card-outline.gp-card {
     border-top: 3px solid rgb(0, 94, 184, 0.4);
 }
 
-.card-primary.card-outline.experience-outcome-card {
+.card-primary.card-outline.nurse-card {
     border-top: 3px solid rgb(0, 150, 57, 0.4);
 }
 
-.card-primary.card-outline.workforce-outcome-card {
+.card-primary.card-outline.admin-card {
     border-top: 3px solid rgb(0, 169, 206, 0.3);
+}
+
+.card-primary.card-outline.other-card {
+    border-top: 3px solid rgb(184, 0, 95, 0.4);
 }
 
 .text-no-change {
