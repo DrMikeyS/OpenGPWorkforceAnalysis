@@ -75,8 +75,8 @@ function generateLineChart(yAxisKey, elementID, denominator = 'needIndex') {
             }
         }
     };
-
     return new Chart(
+
         document.getElementById(elementID + '-line'),
         config
     );
@@ -177,5 +177,27 @@ function setAxes() {
     //Set X-axis to be Date for trend
     trenddata.forEach(element => {
         element.x = element.Date;
+    });
+}
+
+function generateCardSet(categories, ods, denominatorDesc, denominator, style) {
+    i = -1;
+    col = 1;
+    categories.forEach(category => {
+        i++;
+        generateCard(category['desc'],
+            denominatorDesc,
+            'colum' + i,
+            category['code'],
+            ods,
+            col,
+            style,
+            denominator)
+
+        if (col < 4) {
+            col++
+        } else {
+            col = 1;
+        }
     });
 }
