@@ -201,3 +201,11 @@ function generateCardSet(categories, ods, denominatorDesc, denominator, style) {
         }
     });
 }
+
+function validateODS(ods){
+    if(ods!= null && ods.length==6){
+        return true
+    }else{
+    return false
+    }
+    }

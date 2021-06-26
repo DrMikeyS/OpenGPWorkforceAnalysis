@@ -1,4 +1,5 @@
-fetch('https://durhamstudenthealth.co.uk/api/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor)
+if(validateODS(ods)){
+fetch('https://opengpworkforcedata.ew.r.appspot.com/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor)
     .then(function (resp) {
         resp.json().then(function (json) {
             data = json[comparitor]
@@ -211,4 +212,12 @@ fetch('https://durhamstudenthealth.co.uk/api/practice?page=' + page + '&ods=' + 
     })
     .catch(function (error) {
 
-    });
+    });}else{
+        //warmup the server
+        fetch('https://opengpworkforcedata.ew.r.appspot.com/warmup')
+    .then(function (resp) {
+        resp.json().then(function (json) {
+            //console.log(json)
+        })
+    })
+    }
