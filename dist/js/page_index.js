@@ -1,6 +1,12 @@
 if (validateODS(ods)) {
     $('#spinner-container').show()
-    fetch('https://us-central1-opengpworkforcedata.cloudfunctions.net/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor)
+    fetch('https://us-central1-opengpworkforcedata.cloudfunctions.net/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+
+        })
         .then(function (resp) {
             resp.json().then(function (json) {
                 $('#spinner-container').hide()
@@ -213,14 +219,8 @@ if (validateODS(ods)) {
             })
         })
         .catch(function (error) {
-
+            console.log(error)
         });
 } else {
-    //warmup the server
-    fetch('https://opengpworkforcedata.ew.r.appspot.com/warmup')
-        .then(function (resp) {
-            resp.json().then(function (json) {
-                //console.log(json)
-            })
-        })
+
 }
