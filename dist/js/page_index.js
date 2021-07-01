@@ -1,17 +1,23 @@
 if (validateODS(ods)) {
     $('#spinner-container').show()
-    fetch('https://us-central1-opengpworkforcedata.cloudfunctions.net/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor, {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-
-        })
+    fetch('https://us-central1-opengpworkforcedata.cloudfunctions.net/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor)
         .then(function (resp) {
             resp.json().then(function (json) {
                 $('#spinner-container').hide()
                 data = json[comparitor]
                 trenddata = json['trends']
+                if (page == 'gp') {
+                    //Reformat salaried and partner
+                    data.forEach(practice => {
+                        practice['TOTAL_GP_PTNR'] = parseFloat(practice['TOTAL_GP_PTNR_PROV_FTE']) + parseFloat(practice['TOTAL_GP_SEN_PTNR_FTE'])
+                        practice['TOTAL_GP_SAL'] = parseFloat(practice['TOTAL_GP_SAL_BY_OTH_FTE']) + parseFloat(practice['TOTAL_GP_SAL_BY_PRAC_FTE'])
+                    });
+
+                    trenddata.forEach(practice => {
+                        practice['TOTAL_GP_PTNR'] = parseFloat(practice['TOTAL_GP_PTNR_PROV_FTE']) + parseFloat(practice['TOTAL_GP_SEN_PTNR_FTE'])
+                        practice['TOTAL_GP_SAL'] = parseFloat(practice['TOTAL_GP_SAL_BY_OTH_FTE']) + parseFloat(practice['TOTAL_GP_SAL_BY_PRAC_FTE'])
+                    });
+                }
 
                 //Set practice name
                 practice = data.find(o => o.PRAC_CODE === ods);
