@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $('#autoSuggest').autocomplete({
-        source: practiceODSCode
+        source: practiceODSCode,
+        minLength: 2
     })
 
 });

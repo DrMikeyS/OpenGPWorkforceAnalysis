@@ -17,6 +17,9 @@ var practiceODSCode = [{
     "label": "AVENUE MEDICAL PRACTICE A86007",
     "value": "A86007"
 }, {
+    "label": "WILDERNESS PRACTICE K81622",
+    "value": "K81622"
+}, {
     "label": "ARCHWAY SURGERY E82643",
     "value": "E82643"
 }, {
@@ -68,6 +71,9 @@ var practiceODSCode = [{
     "label": "WEMBURY SURGERY L83639",
     "value": "L83639"
 }, {
+    "label": "MAPLE SURGERY BAR HILL HEALTH CENTRE D81078",
+    "value": "D81078"
+}, {
     "label": "EDGWORTH MEDICAL CENTRE P82034",
     "value": "P82034"
 }, {
@@ -82,6 +88,12 @@ var practiceODSCode = [{
 }, {
     "label": "DR N DABAS'S PRACTICE F81045",
     "value": "F81045"
+}, {
+    "label": "COTTENHAM SURGERY D81602",
+    "value": "D81602"
+}, {
+    "label": "CARSHALTON FIELDS SURGERY H85032",
+    "value": "H85032"
 }, {
     "label": "GROBY SURGERY C82628",
     "value": "C82628"
@@ -148,6 +160,9 @@ var practiceODSCode = [{
 }, {
     "label": "THAMESIDE MEDICAL PRACTICE H84059",
     "value": "H84059"
+}, {
+    "label": "LITTLETON SURGERY H81038",
+    "value": "H81038"
 }, {
     "label": "MITCHLEY AVENUE SURGERY H83040",
     "value": "H83040"
@@ -227,6 +242,12 @@ var practiceODSCode = [{
     "label": "THE VINEYARD SURGERY H84041",
     "value": "H84041"
 }, {
+    "label": "KING EDWARDS MEDICAL CENTRE E86024",
+    "value": "E86024"
+}, {
+    "label": "THORKHILL SURGERY H81086",
+    "value": "H81086"
+}, {
     "label": "THE WILLASTON SURGERY Y04664",
     "value": "Y04664"
 }, {
@@ -281,6 +302,9 @@ var practiceODSCode = [{
     "label": "HOLLYOAKS MEDICAL CENTRE M81083",
     "value": "M81083"
 }, {
+    "label": "OAKHILL MEDICAL PRACTICE C81070",
+    "value": "C81070"
+}, {
     "label": "TANWORTH-IN-ARDEN MED CTR M84047",
     "value": "M84047"
 }, {
@@ -305,6 +329,9 @@ var practiceODSCode = [{
     "label": "YOXALL M83013",
     "value": "M83013"
 }, {
+    "label": "MOLEBRIDGE PRACTICE H81618",
+    "value": "H81618"
+}, {
     "label": "ALMONDSBURY SURGERY L81127",
     "value": "L81127"
 }, {
@@ -319,6 +346,9 @@ var practiceODSCode = [{
 }, {
     "label": "QUEENS WALK MEDICAL CENTRE E86626",
     "value": "E86626"
+}, {
+    "label": "LANTERN SURGERY H81672",
+    "value": "H81672"
 }, {
     "label": "BASLOW HEALTH CENTRE C81013",
     "value": "C81013"
@@ -548,6 +578,9 @@ var practiceODSCode = [{
     "label": "MARPLE BRIDGE SURGERY P88002",
     "value": "P88002"
 }, {
+    "label": "SOUTHMEAD SURGERY K82045",
+    "value": "K82045"
+}, {
     "label": "HIGH LANE MEDICAL CENTRE P88623",
     "value": "P88623"
 }, {
@@ -730,6 +763,9 @@ var practiceODSCode = [{
 }, {
     "label": "STRETTON MEDICAL CENTRE N81623",
     "value": "N81623"
+}, {
+    "label": "CAPELFIELD SURGERY H81109",
+    "value": "H81109"
 }, {
     "label": "AUSTEN ROAD SURGERY H81006",
     "value": "H81006"
@@ -1370,6 +1406,9 @@ var practiceODSCode = [{
     "label": "LIPHOOK AND LISS SURGERY J82164",
     "value": "J82164"
 }, {
+    "label": "LONGCROFT CLINIC H81080",
+    "value": "H81080"
+}, {
     "label": "BROCKBANK (PARK ROAD) H84002",
     "value": "H84002"
 }, {
@@ -1958,11 +1997,17 @@ var practiceODSCode = [{
     "label": "PHOENIX MEDICAL GROUP H82015",
     "value": "H82015"
 }, {
+    "label": "GROSVENOR PLACE SURGERY L81637",
+    "value": "L81637"
+}, {
     "label": "CHARNWOOD SURGERY C82097",
     "value": "C82097"
 }, {
     "label": "FELTON SURGERY A84609",
     "value": "A84609"
+}, {
+    "label": "FAMILY SURGERY P91617",
+    "value": "P91617"
 }, {
     "label": "HIGHTOWN VILLAGE SURGERY N84626",
     "value": "N84626"
@@ -1991,8 +2036,14 @@ var practiceODSCode = [{
     "label": "BENFLEET SURGERY F81713",
     "value": "F81713"
 }, {
+    "label": "LAMBERHURST G82170",
+    "value": "G82170"
+}, {
     "label": "BRAMLEY AVENUE SURGERY H83052",
     "value": "H83052"
+}, {
+    "label": "WHITWELL SURGERY E82626",
+    "value": "E82626"
 }, {
     "label": "ALTON SURGERY M83640",
     "value": "M83640"
@@ -2060,6 +2111,9 @@ var practiceODSCode = [{
     "label": "THE AVENUE SURGERY B86023",
     "value": "B86023"
 }, {
+    "label": "SATIS HOUSE Y04884",
+    "value": "Y04884"
+}, {
     "label": "P A PATEL SURGERY F81032",
     "value": "F81032"
 }, {
@@ -2110,6 +2164,9 @@ var practiceODSCode = [{
 }, {
     "label": "GREAT STAUGHTON SURGERY D81081",
     "value": "D81081"
+}, {
+    "label": "HATFIELD ROAD SURGERY E82004",
+    "value": "E82004"
 }, {
     "label": "SCORTON MEDICAL CENTRE B82035",
     "value": "B82035"
@@ -2174,6 +2231,9 @@ var practiceODSCode = [{
     "label": "RIVERSIDE PARTNERSHIP J82633",
     "value": "J82633"
 }, {
+    "label": "FITZMAURICE (KEW) H84639",
+    "value": "H84639"
+}, {
     "label": "TAMAR MEDICAL CENTRE M83668",
     "value": "M83668"
 }, {
@@ -2197,6 +2257,9 @@ var practiceODSCode = [{
 }, {
     "label": "CROWN WOOD MEDICAL CENTRE K81656",
     "value": "K81656"
+}, {
+    "label": "ALLESLEY VILLAGE SURGERY M86039",
+    "value": "M86039"
 }, {
     "label": "VILLAGE SURGERY H84629",
     "value": "H84629"
@@ -2326,6 +2389,9 @@ var practiceODSCode = [{
 }, {
     "label": "MANN COTTAGE SURGERY L84068",
     "value": "L84068"
+}, {
+    "label": "JUBILEE SURGERY H84031",
+    "value": "H84031"
 }, {
     "label": "CHAPELFORD PRIMARY CARE CENTRE Y04925",
     "value": "Y04925"
@@ -2723,6 +2789,9 @@ var practiceODSCode = [{
     "label": "THE PUMP HOUSE SURGERY F81119",
     "value": "F81119"
 }, {
+    "label": "THE SURGERY - 48 MULGRAVE ROAD H85018",
+    "value": "H85018"
+}, {
     "label": "MILLFIELD SURGERY B82002",
     "value": "B82002"
 }, {
@@ -2893,6 +2962,9 @@ var practiceODSCode = [{
 }, {
     "label": "GATLEY MEDICAL CENTRE P88024",
     "value": "P88024"
+}, {
+    "label": "MONKSEATON MEDICAL CENTRE A87020",
+    "value": "A87020"
 }, {
     "label": "FLOOD (ESSEX HOUSE) H84023",
     "value": "H84023"
@@ -3956,6 +4028,12 @@ var practiceODSCode = [{
     "label": "SILTON SURGERY J83629",
     "value": "J83629"
 }, {
+    "label": "WHITESTONE SURGERY M84034",
+    "value": "M84034"
+}, {
+    "label": "FAMILY DOCTORS B86648",
+    "value": "B86648"
+}, {
     "label": "THE CRANE G82605",
     "value": "G82605"
 }, {
@@ -3974,6 +4052,9 @@ var practiceODSCode = [{
     "label": "SCOTT PARK SURGERY F81744",
     "value": "F81744"
 }, {
+    "label": "ASHOVER MEDICAL CENTRE C81611",
+    "value": "C81611"
+}, {
     "label": "CORDWALLIS ROAD SURGERY K81607",
     "value": "K81607"
 }, {
@@ -3985,6 +4066,9 @@ var practiceODSCode = [{
 }, {
     "label": "KIRKOSWALD SURGERY A82617",
     "value": "A82617"
+}, {
+    "label": "BURSCOUGH FAMILY PRACTICE P81138",
+    "value": "P81138"
 }, {
     "label": "ORCHARD MEDICAL PRACTICE P87627",
     "value": "P87627"
@@ -4004,6 +4088,12 @@ var practiceODSCode = [{
     "label": "THE HEATHCOTE PRIMARY CARE CENTRE F86624",
     "value": "F86624"
 }, {
+    "label": "THE PITSHANGER LANE SURGERY E85714",
+    "value": "E85714"
+}, {
+    "label": "SARAJLIC (STAINES ROAD) H84057",
+    "value": "H84057"
+}, {
     "label": "KENTON CLINIC E84647",
     "value": "E84647"
 }, {
@@ -4015,6 +4105,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE REDBRIDGE SURGERY F86703",
     "value": "F86703"
+}, {
+    "label": "SOUTH GREEN SURGERY F81651",
+    "value": "F81651"
 }, {
     "label": "BARNETBY MEDICAL CENTRE B81628",
     "value": "B81628"
@@ -4033,6 +4126,9 @@ var practiceODSCode = [{
 }, {
     "label": "OLD SCHOOL SURGERY G82235",
     "value": "G82235"
+}, {
+    "label": "DALEHAM GARDENS HEALTH CENTRE F83633",
+    "value": "F83633"
 }, {
     "label": "SUNNISIDE SURGERY A85617",
     "value": "A85617"
@@ -4072,6 +4168,9 @@ var practiceODSCode = [{
 }, {
     "label": "COURT THORN SURGERY A82631",
     "value": "A82631"
+}, {
+    "label": "BAWTRY AND BLYTH MEDICAL C84101",
+    "value": "C84101"
 }, {
     "label": "TRENTHAM MEWS MEDICAL CENTRE M83711",
     "value": "M83711"
@@ -4121,6 +4220,9 @@ var practiceODSCode = [{
     "label": "UNITY SURGERY C84150",
     "value": "C84150"
 }, {
+    "label": "THE ALLENDALE ROAD SURGERY E84059",
+    "value": "E84059"
+}, {
     "label": "HELMSLEY SURGERY B82068",
     "value": "B82068"
 }, {
@@ -4165,6 +4267,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE TRINITY MEDICAL PRACTICE F81751",
     "value": "F81751"
+}, {
+    "label": "THE ELMHURST PRACTICE F86064",
+    "value": "F86064"
 }, {
     "label": "WESTFIELD SURGERY L81132",
     "value": "L81132"
@@ -4400,8 +4505,14 @@ var practiceODSCode = [{
     "label": "TANGMERE MEDICAL CENTRE H82067",
     "value": "H82067"
 }, {
+    "label": "BALDERTON SURGERY Y05369",
+    "value": "Y05369"
+}, {
     "label": "THE MOORINGS MEDICAL PRACTICE H83050",
     "value": "H83050"
+}, {
+    "label": "BUNBURY MEDICAL PRACTICE N81006",
+    "value": "N81006"
 }, {
     "label": "REDFERN HEALTH CENTRE L83088",
     "value": "L83088"
@@ -4435,6 +4546,9 @@ var practiceODSCode = [{
 }, {
     "label": "STANLEY COURT SURGERY P81674",
     "value": "P81674"
+}, {
+    "label": "THE EASTERN AVENUE MEDICAL CENTRE F86083",
+    "value": "F86083"
 }, {
     "label": "HIGHLAND ROAD SURGERY G84604",
     "value": "G84604"
@@ -4735,6 +4849,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE ARDLEIGH SURGERY F81044",
     "value": "F81044"
+}, {
+    "label": "SHIRLEY MEDICAL CENTRE H83043",
+    "value": "H83043"
 }, {
     "label": "LAUREL BANK SURGERY N81038",
     "value": "N81038"
@@ -5909,6 +6026,9 @@ var practiceODSCode = [{
     "label": "SLAIDBURN HEALTH CENTRE P81620",
     "value": "P81620"
 }, {
+    "label": "EDGE HILL HEALTH @ MOSSLEY HILL SURGERY N82107",
+    "value": "N82107"
+}, {
     "label": "THE HILLVIEW SURGERY E83657",
     "value": "E83657"
 }, {
@@ -5960,6 +6080,12 @@ var practiceODSCode = [{
     "label": "PATIENCE LANE SURGERY B87602",
     "value": "B87602"
 }, {
+    "label": "MAYFAIR MEDICAL CENTRE E87648",
+    "value": "E87648"
+}, {
+    "label": "SOUTHEND ROAD SURGERY F81088",
+    "value": "F81088"
+}, {
     "label": "THE GLENDALE SURGERY A84604",
     "value": "A84604"
 }, {
@@ -5977,6 +6103,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR F GUPTA'S PRACTICE B86678",
     "value": "B86678"
+}, {
+    "label": "ROSARY GARDEN SURGERY E87048",
+    "value": "E87048"
 }, {
     "label": "DR GUPTA F82610",
     "value": "F82610"
@@ -6035,6 +6164,9 @@ var practiceODSCode = [{
     "label": "LANGLEY G82691",
     "value": "G82691"
 }, {
+    "label": "HADFIELD MEDICAL CENTRE C81660",
+    "value": "C81660"
+}, {
     "label": "NEATH HILL HEALTH CENTRE K82060",
     "value": "K82060"
 }, {
@@ -6062,6 +6194,9 @@ var practiceODSCode = [{
     "label": "MAPLE PRACTICE G82639",
     "value": "G82639"
 }, {
+    "label": "OAKWORTH MEDICAL PRACTICE B83061",
+    "value": "B83061"
+}, {
     "label": "SLAG LANE MC P92648",
     "value": "P92648"
 }, {
@@ -6070,6 +6205,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE HODFORD ROAD PRACTICE E83649",
     "value": "E83649"
+}, {
+    "label": "GREAT HOLLANDS PRACTICE K81094",
+    "value": "K81094"
 }, {
     "label": "THE INGHAM SURGERY C83052",
     "value": "C83052"
@@ -6158,6 +6296,9 @@ var practiceODSCode = [{
     "label": "THE ENTERPRISE PRACTICE E84713",
     "value": "E84713"
 }, {
+    "label": "BURSLEDON SURGERY J82188",
+    "value": "J82188"
+}, {
     "label": "REGENT MEDICAL CENTRE A86028",
     "value": "A86028"
 }, {
@@ -6208,6 +6349,9 @@ var practiceODSCode = [{
 }, {
     "label": "KINGSBURY HEALTH AND WELLBEING E84078",
     "value": "E84078"
+}, {
+    "label": "GLOUCESTER HOUSE MEDICAL CENTRE P91625",
+    "value": "P91625"
 }, {
     "label": "ECCLESTON MEDICAL CENTRE N83614",
     "value": "N83614"
@@ -6271,6 +6415,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR P CRAVEN'S PRACTICE M83103",
     "value": "M83103"
+}, {
+    "label": "CHILLINGTON HEALTH CENTRE L83148",
+    "value": "L83148"
 }, {
     "label": "CRESCENT BAKERY L84616",
     "value": "L84616"
@@ -6338,6 +6485,9 @@ var practiceODSCode = [{
     "label": "CANTERBURY HEALTH CENTRE G82802",
     "value": "G82802"
 }, {
+    "label": "BALFOUR MEDICAL CENTRE F81155",
+    "value": "F81155"
+}, {
     "label": "CALDBECK SURGERY A82014",
     "value": "A82014"
 }, {
@@ -6368,6 +6518,9 @@ var practiceODSCode = [{
     "label": "BOLINGBROKE MEDICAL CENTRE (THMP) H85077",
     "value": "H85077"
 }, {
+    "label": "DICKENS PLACE SURGERY F81024",
+    "value": "F81024"
+}, {
     "label": "DEEPCAR MEDICAL CENTRE C88074",
     "value": "C88074"
 }, {
@@ -6394,6 +6547,9 @@ var practiceODSCode = [{
 }, {
     "label": "ASH SURGERY G82138",
     "value": "G82138"
+}, {
+    "label": "SILVERDALE MEDICAL CENTRE C82627",
+    "value": "C82627"
 }, {
     "label": "WITHAM HEALTH CENTRE F81193",
     "value": "F81193"
@@ -6553,6 +6709,9 @@ var practiceODSCode = [{
 }, {
     "label": "WILLIAM FISHER MED.CTR. F81130",
     "value": "F81130"
+}, {
+    "label": "PRIMROSE HILL SURGERY F83011",
+    "value": "F83011"
 }, {
     "label": "SUN LANE G82018",
     "value": "G82018"
@@ -6806,6 +6965,9 @@ var practiceODSCode = [{
     "label": "HUGGLESCOTE SURGERY C82096",
     "value": "C82096"
 }, {
+    "label": "THE PRACTICE AT 188 E83027",
+    "value": "E83027"
+}, {
     "label": "SOUTH LAWN MEDICAL PRACTICE L83084",
     "value": "L83084"
 }, {
@@ -6838,6 +7000,9 @@ var practiceODSCode = [{
 }, {
     "label": "TRINITY MEDICAL CENTRE H85005",
     "value": "H85005"
+}, {
+    "label": "BACON LANE SURGERY E84014",
+    "value": "E84014"
 }, {
     "label": "BLACKFORD HOUSE MEDICAL CENTRE P83009",
     "value": "P83009"
@@ -6955,6 +7120,9 @@ var practiceODSCode = [{
 }, {
     "label": "WELLS CITY PRACTICE L85034",
     "value": "L85034"
+}, {
+    "label": "ADDINGTON MEDICAL CENTRE E83044",
+    "value": "E83044"
 }, {
     "label": "THE BORDER PRACTICE J82142",
     "value": "J82142"
@@ -7631,6 +7799,9 @@ var practiceODSCode = [{
     "label": "ALWOODLEY MEDICAL CENTRE B86008",
     "value": "B86008"
 }, {
+    "label": "LEDBURY HEALTH PARTNERSHIP M81012",
+    "value": "M81012"
+}, {
     "label": "RIVERSIDE SURGERY M81004",
     "value": "M81004"
 }, {
@@ -7858,6 +8029,12 @@ var practiceODSCode = [{
 }, {
     "label": "HEATON MOOR MEDICAL GROUP P88026",
     "value": "P88026"
+}, {
+    "label": "THE MANOR PRACTICE H82029",
+    "value": "H82029"
+}, {
+    "label": "KENNET SURGERY K81613",
+    "value": "K81613"
 }, {
     "label": "STOURPORT HEALTH CENTRE M81073",
     "value": "M81073"
@@ -8090,6 +8267,9 @@ var practiceODSCode = [{
     "label": "THE BIRCHES MEDICAL CENTRE P83609",
     "value": "P83609"
 }, {
+    "label": "BOWBURN MEDICAL CENTRE A83635",
+    "value": "A83635"
+}, {
     "label": "THE WELLINGTON PRACTICE J82198",
     "value": "J82198"
 }, {
@@ -8192,6 +8372,9 @@ var practiceODSCode = [{
     "label": "ST. CLEMENT'S SURGERY K84060",
     "value": "K84060"
 }, {
+    "label": "MOSS SIDE MEDICAL CENTRE P81186",
+    "value": "P81186"
+}, {
     "label": "DR OZ QURESHI B81642",
     "value": "B81642"
 }, {
@@ -8212,6 +8395,9 @@ var practiceODSCode = [{
 }, {
     "label": "ROSELAND SURGERIES L82048",
     "value": "L82048"
+}, {
+    "label": "HIGHERLAND SURGERY M83140",
+    "value": "M83140"
 }, {
     "label": "DR PS BATH'S PRACTICE E81617",
     "value": "E81617"
@@ -8371,6 +8557,9 @@ var practiceODSCode = [{
 }, {
     "label": "DOUGLAS GROVE SURGERY F81173",
     "value": "F81173"
+}, {
+    "label": "THE DRIVE SURGERY F86652",
+    "value": "F86652"
 }, {
     "label": "TRI-LINKS MEDICAL PRACTICE M83693",
     "value": "M83693"
@@ -8549,6 +8738,9 @@ var practiceODSCode = [{
     "label": "GOLDEN VALLEY PRACTICE M81009",
     "value": "M81009"
 }, {
+    "label": "THURMASTON HEALTH CENTRE C82678",
+    "value": "C82678"
+}, {
     "label": "WOODHALL SPA NEW SURGERY C83635",
     "value": "C83635"
 }, {
@@ -8584,6 +8776,9 @@ var practiceODSCode = [{
 }, {
     "label": "GROVEHURST SURGERY G82026",
     "value": "G82026"
+}, {
+    "label": "THE VILLAGE SURGERY M83007",
+    "value": "M83007"
 }, {
     "label": "WISH PARK SURGERY G81083",
     "value": "G81083"
@@ -9410,6 +9605,9 @@ var practiceODSCode = [{
     "label": "BUNGAY MEDICAL CENTRE D83034",
     "value": "D83034"
 }, {
+    "label": "THE MANDEVILLE PRACTICE K82019",
+    "value": "K82019"
+}, {
     "label": "WORDEN MEDICAL CENTRE P81057",
     "value": "P81057"
 }, {
@@ -9797,6 +9995,9 @@ var practiceODSCode = [{
     "label": "LOWER HIGHAM ROAD SURGERY G82690",
     "value": "G82690"
 }, {
+    "label": "STONEYDELPH MEDICAL PRACTICE M83706",
+    "value": "M83706"
+}, {
     "label": "THE DOCTOR HICKEY SURGERY E87740",
     "value": "E87740"
 }, {
@@ -9872,6 +10073,9 @@ var practiceODSCode = [{
     "label": "ROSSENDALE VALLEY MEDICAL PRACTICE P81686",
     "value": "P81686"
 }, {
+    "label": "ROBY MEDICAL CENTRE N83619",
+    "value": "N83619"
+}, {
     "label": "DR PAL P92630",
     "value": "P92630"
 }, {
@@ -9901,6 +10105,9 @@ var practiceODSCode = [{
 }, {
     "label": "CHAUCER SURGERY Y04882",
     "value": "Y04882"
+}, {
+    "label": "LYNTON HEALTH CENTRE L83068",
+    "value": "L83068"
 }, {
     "label": "THE SUNFLOWER MEDICAL CENTRE E84626",
     "value": "E84626"
@@ -9956,6 +10163,9 @@ var practiceODSCode = [{
     "label": "SHAKESPEARE HEALTH CENTRE E86612",
     "value": "E86612"
 }, {
+    "label": "PENTELOW PRACTICE E85115",
+    "value": "E85115"
+}, {
     "label": "HARTLAND SURGERY L83129",
     "value": "L83129"
 }, {
@@ -9998,6 +10208,9 @@ var practiceODSCode = [{
     "label": "THE HALING PARK PARTNERSHIP H83031",
     "value": "H83031"
 }, {
+    "label": "MITCHAM FAMILY PRACTICE H85078",
+    "value": "H85078"
+}, {
     "label": "ROCHESTER ROAD SURGERY G82648",
     "value": "G82648"
 }, {
@@ -10021,6 +10234,9 @@ var practiceODSCode = [{
 }, {
     "label": "BLACK TORRINGTON SURGERY L83663",
     "value": "L83663"
+}, {
+    "label": "WEXHAM ROAD SURGERY K81005",
+    "value": "K81005"
 }, {
     "label": "PARKFIELD MEDICAL CENTRE M89001",
     "value": "M89001"
@@ -10081,6 +10297,9 @@ var practiceODSCode = [{
 }, {
     "label": "SUTTERTON SURGERY C83614",
     "value": "C83614"
+}, {
+    "label": "FIR TREE N82676",
+    "value": "N82676"
 }, {
     "label": "SOMERSET BRIDGE MEDICAL CENTRE L85607",
     "value": "L85607"
@@ -10241,6 +10460,9 @@ var practiceODSCode = [{
     "label": "CARLTON SURGERY E85024",
     "value": "E85024"
 }, {
+    "label": "PARKVIEW MEDICAL CENTRE N81083",
+    "value": "N81083"
+}, {
     "label": "HOYLAKE RD MET CTR N85046",
     "value": "N85046"
 }, {
@@ -10261,6 +10483,9 @@ var practiceODSCode = [{
 }, {
     "label": "SKYWAYS MEDICAL CENTRE E85707",
     "value": "E85707"
+}, {
+    "label": "ALPERTON MEDICAL CENTRE E84638",
+    "value": "E84638"
 }, {
     "label": "GLEBE PARK SURGERY C83079",
     "value": "C83079"
@@ -10286,6 +10511,9 @@ var practiceODSCode = [{
     "label": "SILLOTH GROUP MEDICAL PRACTICE A82037",
     "value": "A82037"
 }, {
+    "label": "HEATHROW MEDICAL CENTRE E86637",
+    "value": "E86637"
+}, {
     "label": "STANLEY CORNER MEDICAL CENTRE E84051",
     "value": "E84051"
 }, {
@@ -10304,8 +10532,14 @@ var practiceODSCode = [{
     "label": "DR KUMAR & PARTNER STUDFALL MEDICAL CTR K83614",
     "value": "K83614"
 }, {
+    "label": "LANCASTER GATE MEDICAL CENTRE E87722",
+    "value": "E87722"
+}, {
     "label": "OLDWELL SURGERY A85018",
     "value": "A85018"
+}, {
+    "label": "SPRING VIEW MEDICAL CENTRE P82613",
+    "value": "P82613"
 }, {
     "label": "NIGHTINGALE SURGERY G85727",
     "value": "G85727"
@@ -10364,6 +10598,9 @@ var practiceODSCode = [{
     "label": "WOODLANDS SURGERY G83651",
     "value": "G83651"
 }, {
+    "label": "GOWER STREET PRACTICE F83005",
+    "value": "F83005"
+}, {
     "label": "DISTINGTON SURGERY A82023",
     "value": "A82023"
 }, {
@@ -10396,6 +10633,9 @@ var practiceODSCode = [{
 }, {
     "label": "WOODWAY MEDICAL CENTRE M86638",
     "value": "M86638"
+}, {
+    "label": "GRANVILLE MEDICAL CENTRE Y00918",
+    "value": "Y00918"
 }, {
     "label": "STANHOPE SURGERY E82638",
     "value": "E82638"
@@ -10475,6 +10715,9 @@ var practiceODSCode = [{
     "label": "ARGYLL HOUSE J84008",
     "value": "J84008"
 }, {
+    "label": "THE WILLOWS PRACTICE F86057",
+    "value": "F86057"
+}, {
     "label": "SWINGBRIDGE SURGERY C83008",
     "value": "C83008"
 }, {
@@ -10522,6 +10765,9 @@ var practiceODSCode = [{
 }, {
     "label": "ROWANS SURGERY H85035",
     "value": "H85035"
+}, {
+    "label": "FORTY WILLOWS SURGERY E84002",
+    "value": "E84002"
 }, {
     "label": "LOSTOCK MEDICAL CENTRE P91627",
     "value": "P91627"
@@ -10604,6 +10850,9 @@ var practiceODSCode = [{
     "label": "THE AVENUES MEDICAL CENTRE B81035",
     "value": "B81035"
 }, {
+    "label": "THE DOCTORS HOUSE Y00090",
+    "value": "Y00090"
+}, {
     "label": "THE VILLAGE MEDICAL CENTRE N85620",
     "value": "N85620"
 }, {
@@ -10634,11 +10883,17 @@ var practiceODSCode = [{
     "label": "GREAT MASSINGHAM SURGERY D82070",
     "value": "D82070"
 }, {
+    "label": "CHURCH LANE HEALTH CENTRE G82007",
+    "value": "G82007"
+}, {
     "label": "GREEN PORCH MEDICAL PARTNERSHIP G82702",
     "value": "G82702"
 }, {
     "label": "AWBURN HOUSE MEDICAL PRACTICE P89004",
     "value": "P89004"
+}, {
+    "label": "KENSINGTON PARK MEDICAL CENTRE E87720",
+    "value": "E87720"
 }, {
     "label": "THE RIDGEWAY SURGERY F86078",
     "value": "F86078"
@@ -10712,6 +10967,9 @@ var practiceODSCode = [{
     "label": "SEA MILLS SURGERY L81077",
     "value": "L81077"
 }, {
+    "label": "GREEN PRACTICE E85126",
+    "value": "E85126"
+}, {
     "label": "FAR LANE MEDICAL CENTRE C88021",
     "value": "C88021"
 }, {
@@ -10774,6 +11032,9 @@ var practiceODSCode = [{
 }, {
     "label": "ILEX VIEW MEDICAL PRACTICE P81118",
     "value": "P81118"
+}, {
+    "label": "STAVERTON SURGERY E84080",
+    "value": "E84080"
 }, {
     "label": "COLINDALE MEDICAL CENTRE LP E83637",
     "value": "E83637"
@@ -11747,6 +12008,9 @@ var practiceODSCode = [{
     "label": "GREAT HARWOOD SURGERY P81738",
     "value": "P81738"
 }, {
+    "label": "DR S SHAFI C82620",
+    "value": "C82620"
+}, {
     "label": "THE TOWN SURGERY E85721",
     "value": "E85721"
 }, {
@@ -11768,14 +12032,26 @@ var practiceODSCode = [{
     "label": "PLUMBRIDGE MEDICAL CENTRE G83641",
     "value": "G83641"
 }, {
+    "label": "BOURNVILLE SURGERY M85671",
+    "value": "M85671"
+}, {
     "label": "HIGHER HEYS SURGERY P81699",
     "value": "P81699"
 }, {
     "label": "MONK BRETTON HEALTH CENTRE PRACTICE C85622",
     "value": "C85622"
 }, {
+    "label": "BROMPTON MEDICAL CENTRE G82706",
+    "value": "G82706"
+}, {
     "label": "NAPIER ROAD SURGERY G82763",
     "value": "G82763"
+}, {
+    "label": "TORCROSS MEDICAL CENTRE Y00140",
+    "value": "Y00140"
+}, {
+    "label": "SARAF MEDICAL PRACTICE P85602",
+    "value": "P85602"
 }, {
     "label": "SANCTA MARIA MEDICAL CENTRE F81197",
     "value": "F81197"
@@ -11819,6 +12095,9 @@ var practiceODSCode = [{
     "label": "ST. GEORGES MEDICAL CTR. E85743",
     "value": "E85743"
 }, {
+    "label": "EASTBOURNE STATION HEALTH CENTRE Y02816",
+    "value": "Y02816"
+}, {
     "label": "DANEBURY AVENUE SURGERY H85067",
     "value": "H85067"
 }, {
@@ -11845,6 +12124,9 @@ var practiceODSCode = [{
 }, {
     "label": "KINCORA DOCTORS SURGERY E86625",
     "value": "E86625"
+}, {
+    "label": "MARSH SURGERY B85623",
+    "value": "B85623"
 }, {
     "label": "WILLOW TREE SURGERY E86610",
     "value": "E86610"
@@ -11897,6 +12179,9 @@ var practiceODSCode = [{
     "label": "ASHBURTON PARK MEDICAL CENTRE H83033",
     "value": "H83033"
 }, {
+    "label": "THE ALTON PRACTICE H85065",
+    "value": "H85065"
+}, {
     "label": "MONARCH MEDICAL CENTRE P83010",
     "value": "P83010"
 }, {
@@ -11920,6 +12205,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR YASIN SA PRACTICE F81632",
     "value": "F81632"
+}, {
+    "label": "BROOKFIELD PARK SURGERY F83052",
+    "value": "F83052"
 }, {
     "label": "SYDENHAM HOUSE SURGERY F81619",
     "value": "F81619"
@@ -11963,8 +12251,14 @@ var practiceODSCode = [{
     "label": "EARLS COURT SURGERY E87750",
     "value": "E87750"
 }, {
+    "label": "AL-WAQAS MEDICAL CENTRE C82099",
+    "value": "C82099"
+}, {
     "label": "THE TRINITY MEDICAL CENTRE Y02222",
     "value": "Y02222"
+}, {
+    "label": "E12 MEDICAL CENTRE F84739",
+    "value": "F84739"
 }, {
     "label": "CRICKLEWOOD HEALTH CENTRE Y02986",
     "value": "Y02986"
@@ -12013,6 +12307,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE GARWAY MEDICAL PRACTICE E87009",
     "value": "E87009"
+}, {
+    "label": "THE RAVENSCAR SURGERY Y00286",
+    "value": "Y00286"
 }, {
     "label": "KINGSWAY SURGERY E86003",
     "value": "E86003"
@@ -12110,6 +12407,12 @@ var practiceODSCode = [{
     "label": "SCHOOL LANE PMS PRACTICE Y01690",
     "value": "Y01690"
 }, {
+    "label": "QUARRY BANK MEDICAL CENTRE M87027",
+    "value": "M87027"
+}, {
+    "label": "WALNUT ST MED CTR (LEICESTER MED GROUP) C82662",
+    "value": "C82662"
+}, {
     "label": "VILLAGES MEDICAL GROUP A83637",
     "value": "A83637"
 }, {
@@ -12121,6 +12424,9 @@ var practiceODSCode = [{
 }, {
     "label": "QUEEN STREET MEDICAL PRACTICE A82058",
     "value": "A82058"
+}, {
+    "label": "ROBIN HOOD SURGERY G84029",
+    "value": "G84029"
 }, {
     "label": "BACON ROAD MEDICAL CENTRE D82060",
     "value": "D82060"
@@ -12143,6 +12449,9 @@ var practiceODSCode = [{
     "label": "FRIAR GATE SURGERY C81036",
     "value": "C81036"
 }, {
+    "label": "THE HEIGHT GENERAL PRACTICE Y02767",
+    "value": "Y02767"
+}, {
     "label": "MUSEUM PRACTICE F83061",
     "value": "F83061"
 }, {
@@ -12157,6 +12466,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR S M CHEN & PARTNER B86094",
     "value": "B86094"
+}, {
+    "label": "THE CRESCENT MEDICAL CTR. K83050",
+    "value": "K83050"
 }, {
     "label": "BRIGSTOCK FAMILY PRACTICE H83608",
     "value": "H83608"
@@ -12197,6 +12509,9 @@ var practiceODSCode = [{
     "label": "PURFLEET CARE CENTRE Y00033",
     "value": "Y00033"
 }, {
+    "label": "PRENTIS MEDICAL CENTRE G85021",
+    "value": "G85021"
+}, {
     "label": "KS MEDICAL CENTRE E85012",
     "value": "E85012"
 }, {
@@ -12215,6 +12530,9 @@ var practiceODSCode = [{
     "label": "GREENBROOK BEDFONT E85697",
     "value": "E85697"
 }, {
+    "label": "BURNBRAE MEDICAL PRACTICE B81085",
+    "value": "B81085"
+}, {
     "label": "FRONKS RD FAMILY SURGERY F81221",
     "value": "F81221"
 }, {
@@ -12232,6 +12550,9 @@ var practiceODSCode = [{
 }, {
     "label": "FRANCIS ROAD MEDICAL CENTRE F86696",
     "value": "F86696"
+}, {
+    "label": "DERRY DOWNS SURGERY G84005",
+    "value": "G84005"
 }, {
     "label": "GREENFORD AVENUE FHP E85051",
     "value": "E85051"
@@ -12335,6 +12656,9 @@ var practiceODSCode = [{
     "label": "CRAG'S HEALTH CARE C81096",
     "value": "C81096"
 }, {
+    "label": "GRAY'S INN ROAD MEDICAL CENTRE F83042",
+    "value": "F83042"
+}, {
     "label": "THE EXCHANGE SURGERY G85647",
     "value": "G85647"
 }, {
@@ -12352,6 +12676,9 @@ var practiceODSCode = [{
 }, {
     "label": "CHALKHILL FAMILY PRACTICE E84033",
     "value": "E84033"
+}, {
+    "label": "BRUNSWICK MEDICAL CENTRE UHPC F83048",
+    "value": "F83048"
 }, {
     "label": "ST PETER'S MED CENTRE (MANSINGH & MEHRA) C82660",
     "value": "C82660"
@@ -12422,8 +12749,14 @@ var practiceODSCode = [{
     "label": "HARRIS MEMORIAL SURGERY L82620",
     "value": "L82620"
 }, {
+    "label": "WOODLEA HOUSE SURGERY J81633",
+    "value": "J81633"
+}, {
     "label": "MAYFIELD SURGERY H85006",
     "value": "H85006"
+}, {
+    "label": "EARLS COURT MEDICAL CENTRE E87047",
+    "value": "E87047"
 }, {
     "label": "STROUD PRACTICE M91614",
     "value": "M91614"
@@ -12446,6 +12779,12 @@ var practiceODSCode = [{
     "label": "REDGATE MEDICAL CENTRE L85051",
     "value": "L85051"
 }, {
+    "label": "MCKENZIE GROUP PRACTICE A81070",
+    "value": "A81070"
+}, {
+    "label": "QUAYSIDE MEDICAL PRACTICE P85026",
+    "value": "P85026"
+}, {
     "label": "THE AVENUE MEDICAL CENTRE K81039",
     "value": "K81039"
 }, {
@@ -12457,6 +12796,9 @@ var practiceODSCode = [{
 }, {
     "label": "CAMBRIDGE MEDICAL GROUP A81051",
     "value": "A81051"
+}, {
+    "label": "GREENFIELD MEDICAL CENTRE E83006",
+    "value": "E83006"
 }, {
     "label": "WESTBOURNE MEDICAL GROUP A89030",
     "value": "A89030"
@@ -12638,6 +12980,9 @@ var practiceODSCode = [{
     "label": "WOODHOUSE MEDICAL PRACTICE B86049",
     "value": "B86049"
 }, {
+    "label": "THE MATHEWS PRACTICE BELGRAVE C88038",
+    "value": "C88038"
+}, {
     "label": "THE PENRHYN SURGERY F86005",
     "value": "F86005"
 }, {
@@ -12646,6 +12991,9 @@ var practiceODSCode = [{
 }, {
     "label": "HETHERINGTON GROUP PRACTICE G85045",
     "value": "G85045"
+}, {
+    "label": "WESTBOURNE GROVE MEDICAL CENTRE E87007",
+    "value": "E87007"
 }, {
     "label": "ROWNER HEALTH CENTRE J82669",
     "value": "J82669"
@@ -12673,6 +13021,9 @@ var practiceODSCode = [{
 }, {
     "label": "AT MEDICS Y02974",
     "value": "Y02974"
+}, {
+    "label": "SLADE GREEN MEDICAL CTR. G83062",
+    "value": "G83062"
 }, {
     "label": "LARKSHALL MEDICAL CENTRE F86664",
     "value": "F86664"
@@ -12962,6 +13313,9 @@ var practiceODSCode = [{
     "label": "ST GEORGES MEDICAL CENTRE N85012",
     "value": "N85012"
 }, {
+    "label": "ONE MEDICARE LLP-THE LIGHT Y02002",
+    "value": "Y02002"
+}, {
     "label": "WOODFORD MEDICAL PRACTICE B81077",
     "value": "B81077"
 }, {
@@ -13072,6 +13426,9 @@ var practiceODSCode = [{
 }, {
     "label": "LONGRIGG MEDICAL CENTRE A85004",
     "value": "A85004"
+}, {
+    "label": "ABBEY MEDICAL CENTRE F83019",
+    "value": "F83019"
 }, {
     "label": "ESPLANADE SURGERY J84005",
     "value": "J84005"
@@ -13613,17 +13970,26 @@ var practiceODSCode = [{
     "label": "WESTCOTES GP SURGERY (ONE) C82059",
     "value": "C82059"
 }, {
+    "label": "NEW NORTH HEALTH CENTRE F83034",
+    "value": "F83034"
+}, {
     "label": "HIGH ROAD SURGERY F86045",
     "value": "F86045"
 }, {
     "label": "DR BEKAS MEDICAL CENTRE F81207",
     "value": "F81207"
 }, {
+    "label": "ST ANDREWS MEDICAL CENTRE E84011",
+    "value": "E84011"
+}, {
     "label": "DADHANIA SURGERY M86610",
     "value": "M86610"
 }, {
     "label": "OLD HILL MEDICAL CENTRE M88016",
     "value": "M88016"
+}, {
+    "label": "WALFORD STREET, TIVIDALE M88618",
+    "value": "M88618"
 }, {
     "label": "DR T KRISHNAMURTHY F84741",
     "value": "F84741"
@@ -13645,6 +14011,9 @@ var practiceODSCode = [{
 }, {
     "label": "ST. GEORGES MEDICAL CENTRE E84704",
     "value": "E84704"
+}, {
+    "label": "DR FOWLER M92014",
+    "value": "M92014"
 }, {
     "label": "DR CM PATEL'S SURGERY F84660",
     "value": "F84660"
@@ -13699,6 +14068,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR ALI GUTTRIDGE MEDICAL CENTRE P81685",
     "value": "P81685"
+}, {
+    "label": "ABBAMOOR SURGERY F82670",
+    "value": "F82670"
 }, {
     "label": "GARRETTS GREEN LANE SURGERY M85694",
     "value": "M85694"
@@ -13756,6 +14128,9 @@ var practiceODSCode = [{
 }, {
     "label": "ORIENT HOUSE MEDICAL CENTRE P82624",
     "value": "P82624"
+}, {
+    "label": "SECOND STREET SURGERY A85021",
+    "value": "A85021"
 }, {
     "label": "PRASAD F82671",
     "value": "F82671"
@@ -13907,6 +14282,9 @@ var practiceODSCode = [{
     "label": "LONGTOWN MEDICAL CENTRE A82646",
     "value": "A82646"
 }, {
+    "label": "THE BLOOMSBURY SURGERY F83044",
+    "value": "F83044"
+}, {
     "label": "SELHURST MEDICAL PRACTICE H83611",
     "value": "H83611"
 }, {
@@ -14021,6 +14399,9 @@ var practiceODSCode = [{
     "label": "THE DENSHAM SURGERY A81001",
     "value": "A81001"
 }, {
+    "label": "THE LYNDHURST SURGERY F86088",
+    "value": "F86088"
+}, {
     "label": "GUIDE BRIDGE MEDICAL PRACTICE Y02713",
     "value": "Y02713"
 }, {
@@ -14029,6 +14410,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE OSWALD ROAD MEDICAL SURGERY B81090",
     "value": "B81090"
+}, {
+    "label": "THE PRACTICE SURGERIES LTD Y02962",
+    "value": "Y02962"
 }, {
     "label": "WEST END CLINIC C86621",
     "value": "C86621"
@@ -14063,6 +14447,9 @@ var practiceODSCode = [{
     "label": "THE VAUXHALL SURGERY G85102",
     "value": "G85102"
 }, {
+    "label": "DRS BOWRY & BOWRY'S PRACTICE F83027",
+    "value": "F83027"
+}, {
     "label": "RIVERBANK MEDICAL SERVICES C84127",
     "value": "C84127"
 }, {
@@ -14086,6 +14473,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE MEDICAL CENTRE F83673",
     "value": "F83673"
+}, {
+    "label": "THE HIVE HEALTH CENTRE Y00726",
+    "value": "Y00726"
 }, {
     "label": "REDLAM SURGERY P81061",
     "value": "P81061"
@@ -14132,6 +14522,9 @@ var practiceODSCode = [{
     "label": "OAKFIELD SURGERY G84625",
     "value": "G84625"
 }, {
+    "label": "STERNHALL LANE SURGERY G85119",
+    "value": "G85119"
+}, {
     "label": "POPLAR STREET SURGERY Y02321",
     "value": "Y02321"
 }, {
@@ -14165,6 +14558,9 @@ var practiceODSCode = [{
     "label": "LL MEDICAL CARE LTD F86625",
     "value": "F86625"
 }, {
+    "label": "THE CORNER SURGERY G85127",
+    "value": "G85127"
+}, {
     "label": "CRESWELL AND LANGWITH MEDICAL CENTRE Y04977",
     "value": "Y04977"
 }, {
@@ -14188,6 +14584,9 @@ var practiceODSCode = [{
 }, {
     "label": "SPRINGFIELD MEDICAL CENTRE G85673",
     "value": "G85673"
+}, {
+    "label": "CLOVER HEALTH CENTRE Y03296",
+    "value": "Y03296"
 }, {
     "label": "THE REGENTS PARK PRACTICE F83025",
     "value": "F83025"
@@ -14264,6 +14663,9 @@ var practiceODSCode = [{
     "label": "BROOKLANDS MEDICAL PRACTICE P84061",
     "value": "P84061"
 }, {
+    "label": "BROWNLOW AT MARYBONE N82617",
+    "value": "N82617"
+}, {
     "label": "FIRST 4 HEALTH GROUP - E7 HEALTH F84672",
     "value": "F84672"
 }, {
@@ -14275,6 +14677,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR S PHILLIPS AND DR M PATEL PRACTICE F86006",
     "value": "F86006"
+}, {
+    "label": "LATHOM ROAD MEDICAL CENTRE F84070",
+    "value": "F84070"
 }, {
     "label": "GLYNDON PMS G83060",
     "value": "G83060"
@@ -14351,6 +14756,9 @@ var practiceODSCode = [{
     "label": "TUDOR HOUSE MEDICAL PRACTICE C84619",
     "value": "C84619"
 }, {
+    "label": "DEPTFORD SURGERY G85711",
+    "value": "G85711"
+}, {
     "label": "SIDINGS HEALTHCARE CENTRE B85652",
     "value": "B85652"
 }, {
@@ -14371,6 +14779,9 @@ var practiceODSCode = [{
 }, {
     "label": "HAPPY HOUSE SURGERY A89041",
     "value": "A89041"
+}, {
+    "label": "GROVE SURGERY F86062",
+    "value": "F86062"
 }, {
     "label": "TRIANGLE GROUP PRACTICE G85120",
     "value": "G85120"
@@ -14471,6 +14882,9 @@ var practiceODSCode = [{
     "label": "KINGFISHER MEDICAL CENTRE G85020",
     "value": "G85020"
 }, {
+    "label": "CITY ROAD MEDICAL CENTRE F83064",
+    "value": "F83064"
+}, {
     "label": "LIME TREE SURGERY F86650",
     "value": "F86650"
 }, {
@@ -14507,6 +14921,9 @@ var practiceODSCode = [{
     "label": "THE FIRS F86001",
     "value": "F86001"
 }, {
+    "label": "THE SOUTH LAMBETH RD PRACTICE G85086",
+    "value": "G85086"
+}, {
     "label": "DR AA ANSARI'S PRACTICE F82650",
     "value": "F82650"
 }, {
@@ -14524,6 +14941,9 @@ var practiceODSCode = [{
 }, {
     "label": "PETERSFIELD SURGERY F82010",
     "value": "F82010"
+}, {
+    "label": "HIGHGROVE SURGERY F82680",
+    "value": "F82680"
 }, {
     "label": "THE SPINNEY MEDICAL CTR. N83035",
     "value": "N83035"
@@ -14798,6 +15218,9 @@ var practiceODSCode = [{
     "label": "GROBY ROAD MEDICAL CENTRE (ID PATCHETT) C82005",
     "value": "C82005"
 }, {
+    "label": "MAWBEY GROUP PRACTICE G85130",
+    "value": "G85130"
+}, {
     "label": "LUCAS AVENUE PRACTICE F84642",
     "value": "F84642"
 }, {
@@ -14812,6 +15235,9 @@ var practiceODSCode = [{
 }, {
     "label": "ECCLESFIELD GROUP PRACT C88039",
     "value": "C88039"
+}, {
+    "label": "THE BORCHARDT MEDICAL CENTRE P84010",
+    "value": "P84010"
 }, {
     "label": "DURNFORD MEDICAL CENTRE P86019",
     "value": "P86019"
@@ -14872,6 +15298,9 @@ var practiceODSCode = [{
 }, {
     "label": "MANOR CLINIC G82232",
     "value": "G82232"
+}, {
+    "label": "GORDON STREET SURGERY M83010",
+    "value": "M83010"
 }, {
     "label": "WOODVIEW MEDICAL CENTRE K83040",
     "value": "K83040"
@@ -15194,8 +15623,14 @@ var practiceODSCode = [{
     "label": "WOODHOUSE MEDICAL CENTRE C88072",
     "value": "C88072"
 }, {
+    "label": "ST JAMES MEDICAL PRACTICE LIMITED F86058",
+    "value": "F86058"
+}, {
     "label": "KILMENY GROUP MEDICAL PRACTICE B83033",
     "value": "B83033"
+}, {
+    "label": "LISTER HOUSE CHELLASTON Y05286",
+    "value": "Y05286"
 }, {
     "label": "CLAYS PRACTICE L82051",
     "value": "L82051"
@@ -15317,6 +15752,9 @@ var practiceODSCode = [{
     "label": "PEEL HOUSE MEDICAL PRACTICE P81036",
     "value": "P81036"
 }, {
+    "label": "BRONDESBURY MEDICAL CENTRE F83059",
+    "value": "F83059"
+}, {
     "label": "GREAT NORTH MEDICAL GROUP C86001",
     "value": "C86001"
 }, {
@@ -15373,6 +15811,9 @@ var practiceODSCode = [{
 }, {
     "label": "CENTRAL SURGERY A88013",
     "value": "A88013"
+}, {
+    "label": "SPINNEY HILL MEDICAL CENTRE C82024",
+    "value": "C82024"
 }, {
     "label": "CHELSTON HALL SURGERY L83118",
     "value": "L83118"
@@ -15458,6 +15899,15 @@ var practiceODSCode = [{
     "label": "THE WHITEHOUSE CENTRE B85659",
     "value": "B85659"
 }, {
+    "label": "THE MEDICAL CENTRE DR OKORIE C88655",
+    "value": "C88655"
+}, {
+    "label": "HOLLY ROAD SURGERY M85801",
+    "value": "M85801"
+}, {
+    "label": "3D MEDICAL CENTRE Y00186",
+    "value": "Y00186"
+}, {
     "label": "WESTCOTES GP SURGERY (TWO) C82653",
     "value": "C82653"
 }, {
@@ -15466,6 +15916,9 @@ var practiceODSCode = [{
 }, {
     "label": "ESK ROAD MEDICAL CENTRE F84673",
     "value": "F84673"
+}, {
+    "label": "POULTER ROAD MEDICAL CENTRE N82648",
+    "value": "N82648"
 }, {
     "label": "CONISBROUGH MEDICAL PRACTICE C86625",
     "value": "C86625"
@@ -15500,6 +15953,9 @@ var practiceODSCode = [{
     "label": "BRADFORD STREET SURGERY P82033",
     "value": "P82033"
 }, {
+    "label": "DOG KENNEL LANE SURGERY M88635",
+    "value": "M88635"
+}, {
     "label": "SRIKRISHNAMURTHY HARROW ROAD SURGERY E87751",
     "value": "E87751"
 }, {
@@ -15518,6 +15974,9 @@ var practiceODSCode = [{
     "label": "COTTAGE LANE SURGERY C81615",
     "value": "C81615"
 }, {
+    "label": "PASLEY ROAD HEALTH CENTRE (TK KHONG) C82626",
+    "value": "C82626"
+}, {
     "label": "THORNTON LODGE SURGERY B85044",
     "value": "B85044"
 }, {
@@ -15535,6 +15994,9 @@ var practiceODSCode = [{
 }, {
     "label": "BISWAS B B81620",
     "value": "B81620"
+}, {
+    "label": "ROSE MEDICAL PRACTICE B85058",
+    "value": "B85058"
 }, {
     "label": "CASTLETOWN MEDICAL CENTRE A89036",
     "value": "A89036"
@@ -15590,6 +16052,9 @@ var practiceODSCode = [{
     "label": "MEANWHILE GARDEN MEDICAL CENTRE E87026",
     "value": "E87026"
 }, {
+    "label": "CORNERSTONE SURGERY N83604",
+    "value": "N83604"
+}, {
     "label": "TOTTENHAM HALE MEDICAL PRACTICE Y05330",
     "value": "Y05330"
 }, {
@@ -15601,6 +16066,9 @@ var practiceODSCode = [{
 }, {
     "label": "BRACE STREET HC- KUMAR M91628",
     "value": "M91628"
+}, {
+    "label": "THE BEAUMONT PRACTICE F83671",
+    "value": "F83671"
 }, {
     "label": "WARRIOR SQUARE SURGERY F81656",
     "value": "F81656"
@@ -15686,6 +16154,12 @@ var practiceODSCode = [{
     "label": "WARLEY ROAD SURGERY M88640",
     "value": "M88640"
 }, {
+    "label": "QUEENS PARK HEALTH CENTRE E87755",
+    "value": "E87755"
+}, {
+    "label": "THE SURGERY, DR DASGUPTA & PARTNERS E85005",
+    "value": "E85005"
+}, {
     "label": "RILLWOOD MEDICAL CENTRE K83020",
     "value": "K83020"
 }, {
@@ -15710,6 +16184,9 @@ var practiceODSCode = [{
     "label": "THE VICTORIA SURGERY M88600",
     "value": "M88600"
 }, {
+    "label": "SADDLERS HEALTH CENTRE M91018",
+    "value": "M91018"
+}, {
     "label": "THE STROUDLEY WLK HTH CTR F84676",
     "value": "F84676"
 }, {
@@ -15718,6 +16195,9 @@ var practiceODSCode = [{
 }, {
     "label": "FRIZINGHALL MEDICAL CENTRE B83627",
     "value": "B83627"
+}, {
+    "label": "SANDFIELD MEDICAL CENTRE N83620",
+    "value": "N83620"
 }, {
     "label": "OAKS PLACE SURGERY N81619",
     "value": "N81619"
@@ -15785,6 +16265,9 @@ var practiceODSCode = [{
     "label": "ROOD END MEDICAL PRACTICE M88647",
     "value": "M88647"
 }, {
+    "label": "TRAFALGAR SURGERY G85019",
+    "value": "G85019"
+}, {
     "label": "PARTNERSHIP PRIMARY CARE CENTRE F83681",
     "value": "F83681"
 }, {
@@ -15817,6 +16300,9 @@ var practiceODSCode = [{
 }, {
     "label": "MALZEARD ROAD PRACTICE E81631",
     "value": "E81631"
+}, {
+    "label": "KING STREET MEDICAL CENTRE P89022",
+    "value": "P89022"
 }, {
     "label": "CAMP HILL GP LED HEALTH CENTRE Y04969",
     "value": "Y04969"
@@ -15883,6 +16369,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE RIVERSIDE PRACTICE F84619",
     "value": "F84619"
+}, {
+    "label": "BOWLING GREEN STREET SURGERY Y02686",
+    "value": "Y02686"
 }, {
     "label": "DARLASTON FAMILY PRACTICE M91026",
     "value": "M91026"
@@ -16022,6 +16511,9 @@ var practiceODSCode = [{
     "label": "THE RISE GROUP PRACTICE F83039",
     "value": "F83039"
 }, {
+    "label": "THE RUIZ MEDICAL PRACTICE F84666",
+    "value": "F84666"
+}, {
     "label": "THE OM MEDICAL CENTRE G82682",
     "value": "G82682"
 }, {
@@ -16040,6 +16532,9 @@ var practiceODSCode = [{
     "label": "THE SPIRES HEALTH CENTRE M88643",
     "value": "M88643"
 }, {
+    "label": "OAKVIEW FAMILY PRACTICE G85716",
+    "value": "G85716"
+}, {
     "label": "BOUNDARY HOUSE SURGERY F85676",
     "value": "F85676"
 }, {
@@ -16054,6 +16549,9 @@ var practiceODSCode = [{
 }, {
     "label": "HOUGH GREEN HEALTH PARK N81119",
     "value": "N81119"
+}, {
+    "label": "WESTWOOD CLINIC D81073",
+    "value": "D81073"
 }, {
     "label": "THE NAYAR PRACTICE C86033",
     "value": "C86033"
@@ -16118,6 +16616,9 @@ var practiceODSCode = [{
     "label": "ATKINSON HEALTH CENTRE A82062",
     "value": "A82062"
 }, {
+    "label": "THE SURGERY (BARRETTS GROVE) F84636",
+    "value": "F84636"
+}, {
     "label": "STROUTS PLACE MEDICAL CENTRE F84051",
     "value": "F84051"
 }, {
@@ -16126,6 +16627,9 @@ var practiceODSCode = [{
 }, {
     "label": "BLOXWICH MEDICAL PRACTICE M91034",
     "value": "M91034"
+}, {
+    "label": "RED HOUSE MEDICAL CENTRE A89008",
+    "value": "A89008"
 }, {
     "label": "THE BOUNCES ROAD SURGERY F85044",
     "value": "F85044"
@@ -16156,6 +16660,9 @@ var practiceODSCode = [{
 }, {
     "label": "RAINBOW PRACTICE F85039",
     "value": "F85039"
+}, {
+    "label": "MARSHALLS CROSS MEDICAL CENTRE Y02510",
+    "value": "Y02510"
 }, {
     "label": "TEAMS MEDICAL PRACTICE A85023",
     "value": "A85023"
@@ -16304,6 +16811,9 @@ var practiceODSCode = [{
     "label": "SUMMERHILL SURGERY G82046",
     "value": "G82046"
 }, {
+    "label": "KINGS CROSS SURGERY F83635",
+    "value": "F83635"
+}, {
     "label": "BEAUMONT LODGE MEDICAL PRACTICE C82094",
     "value": "C82094"
 }, {
@@ -16312,6 +16822,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE CEDAR PRACTICE F84036",
     "value": "F84036"
+}, {
+    "label": "FLEETWOOD SURGERY P81668",
+    "value": "P81668"
 }, {
     "label": "FELMORES MEDICAL CENTRE F81186",
     "value": "F81186"
@@ -16526,6 +17039,9 @@ var practiceODSCode = [{
     "label": "HOLLYMOOR MEDICAL CENTRE M85076",
     "value": "M85076"
 }, {
+    "label": "NORFOLK STREET SURGERY M83075",
+    "value": "M83075"
+}, {
     "label": "BURNLEY PRACTICE Y00206",
     "value": "Y00206"
 }, {
@@ -16624,6 +17140,9 @@ var practiceODSCode = [{
 }, {
     "label": "VILLAGE MEDICAL CENTRE A81009",
     "value": "A81009"
+}, {
+    "label": "HANLEY PRIMARY CARE CENTRE Y01066",
+    "value": "Y01066"
 }, {
     "label": "CLIFTON MEDICAL PRACTICE C84046",
     "value": "C84046"
@@ -16727,6 +17246,9 @@ var practiceODSCode = [{
     "label": "CHURCHFIELDS MEDICAL PRACTICE C84034",
     "value": "C84034"
 }, {
+    "label": "THE ORDNANCE UNITY CENTRE FOR HEALTH F85023",
+    "value": "F85023"
+}, {
     "label": "WYCLIFFE SURGERY L83076",
     "value": "L83076"
 }, {
@@ -16753,6 +17275,9 @@ var practiceODSCode = [{
 }, {
     "label": "MANOR MEDICAL PRACTICE B83012",
     "value": "B83012"
+}, {
+    "label": "THE LIMEHOUSE PRACTICE F84054",
+    "value": "F84054"
 }, {
     "label": "SMA MEDICAL PRACTICE F86038",
     "value": "F86038"
@@ -16787,6 +17312,9 @@ var practiceODSCode = [{
     "label": "QUEENS ROAD SURGERY G85040",
     "value": "G85040"
 }, {
+    "label": "OAKESWELL HEALTH CENTRE M88007",
+    "value": "M88007"
+}, {
     "label": "PEMBERTON SURGERY P92019",
     "value": "P92019"
 }, {
@@ -16813,6 +17341,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE MISSION PRACTICE F84016",
     "value": "F84016"
+}, {
+    "label": "ICO HEALTH GROUP G85104",
+    "value": "G85104"
 }, {
     "label": "MAPLE ACCESS PARTNERSHIP LLP K83621",
     "value": "K83621"
@@ -16852,6 +17383,9 @@ var practiceODSCode = [{
 }, {
     "label": "CENTRAL MEDICAL CENTRE D81631",
     "value": "D81631"
+}, {
+    "label": "HAXBY GROUP CALVERT & NEWINGTON B81675",
+    "value": "B81675"
 }, {
     "label": "FIELD ROAD SURGERY C86037",
     "value": "C86037"
@@ -17005,6 +17539,9 @@ var practiceODSCode = [{
 }, {
     "label": "THE HAYMARKET HEALTH CTR M83082",
     "value": "M83082"
+}, {
+    "label": "GRAHAM ROAD SURGERY L81016",
+    "value": "L81016"
 }, {
     "label": "CLEVELAND SURGERY C83018",
     "value": "C83018"
@@ -17240,6 +17777,9 @@ var practiceODSCode = [{
     "label": "VULNERABLE ADULTS SERVICE Y05472",
     "value": "Y05472"
 }, {
+    "label": "ROXTON AT WEELSBY VIEW B81603",
+    "value": "B81603"
+}, {
     "label": "THE ANCHOR CENTRE Y00060",
     "value": "Y00060"
 }, {
@@ -17270,6 +17810,9 @@ var practiceODSCode = [{
     "label": "WILLOWBANK SURGERY P84679",
     "value": "P84679"
 }, {
+    "label": "BILBOROUGH SURGERY C84647",
+    "value": "C84647"
+}, {
     "label": "VITTORIA MED CTR K N85634",
     "value": "N85634"
 }, {
@@ -17284,6 +17827,9 @@ var practiceODSCode = [{
 }, {
     "label": "YARDLEY MEDICAL CENTRE M85094",
     "value": "M85094"
+}, {
+    "label": "SEAFORTH VILLAGE SURGERY N84043",
+    "value": "N84043"
 }, {
     "label": "SHEFFIELD MEDICAL CENTRE C88622",
     "value": "C88622"
@@ -17315,6 +17861,9 @@ var practiceODSCode = [{
     "label": "THE DALE MEDICAL PRACTICE P86609",
     "value": "P86609"
 }, {
+    "label": "THE POOLWAY MEDICAL CENTRE M85008",
+    "value": "M85008"
+}, {
     "label": "THORNTREE SURGERY A81621",
     "value": "A81621"
 }, {
@@ -17326,6 +17875,15 @@ var practiceODSCode = [{
 }, {
     "label": "MOCHA PARADE MEDICAL PRACTICE P87022",
     "value": "P87022"
+}, {
+    "label": "LAKESIDE SURGERY Y04809",
+    "value": "Y04809"
+}, {
+    "label": "GREAT LEVER ONE P82633",
+    "value": "P82633"
+}, {
+    "label": "WINDERMERE SURGERY P86620",
+    "value": "P86620"
 }, {
     "label": "BIGHAM ROAD MEDICAL CENTRE N82671",
     "value": "N82671"
@@ -17354,14 +17912,23 @@ var practiceODSCode = [{
     "label": "GREENFIELD MEDICAL CENTRE M85670",
     "value": "M85670"
 }, {
+    "label": "EASTMOOR HEALTH CENTRE B87604",
+    "value": "B87604"
+}, {
     "label": "COLBY MEDICAL CENTRE N83610",
     "value": "N83610"
 }, {
     "label": "BROADWAY SURGERY G81669",
     "value": "G81669"
 }, {
+    "label": "NETHERTON SURGERY N84630",
+    "value": "N84630"
+}, {
     "label": "GILLMOSS MEDICAL CENTRE N82087",
     "value": "N82087"
+}, {
+    "label": "BARNSLEY ROAD SURGERY C88091",
+    "value": "C88091"
 }, {
     "label": "AINTREE ROAD MEDICAL CENTRE N84002",
     "value": "N84002"
@@ -17405,6 +17972,9 @@ var practiceODSCode = [{
     "label": "CHERRY MEDICAL PRACTICE P87630",
     "value": "P87630"
 }, {
+    "label": "WERNETH MEDICAL PRACTICE P85612",
+    "value": "P85612"
+}, {
     "label": "QUAYSIDE MEDICAL CENTRE Y02684",
     "value": "Y02684"
 }, {
@@ -17425,6 +17995,9 @@ var practiceODSCode = [{
 }, {
     "label": "MERIDIAN PRACTICE Y00996",
     "value": "Y00996"
+}, {
+    "label": "SPRINGFIELD MEDICAL PRACT M85756",
+    "value": "M85756"
 }, {
     "label": "PEEL PARK SURGERY B83629",
     "value": "B83629"
@@ -17465,11 +18038,20 @@ var practiceODSCode = [{
     "label": "HARDEN HEALTH CENTRE M91036",
     "value": "M91036"
 }, {
+    "label": "KIRKDALE MEDICAL CENTRE N82101",
+    "value": "N82101"
+}, {
     "label": "CONWAY MEDICAL CENTRE B86103",
     "value": "B86103"
 }, {
+    "label": "SOUTHEY GREEN MEDICAL CTR C88086",
+    "value": "C88086"
+}, {
     "label": "THE GOLBORNE MEDICAL CENTRE E87742",
     "value": "E87742"
+}, {
+    "label": "KINGSBURY ROAD MEDICAL CENTRE M85014",
+    "value": "M85014"
 }, {
     "label": "PARK VIEW N82670",
     "value": "N82670"
@@ -17522,6 +18104,9 @@ var practiceODSCode = [{
     "label": "SOHO ROAD HEALTH CENTRE M85757",
     "value": "M85757"
 }, {
+    "label": "CHP LTD - BRANSHOLME B81002",
+    "value": "B81002"
+}, {
     "label": "HUNTLEY MOUNT MEDICAL CENTRE P83621",
     "value": "P83621"
 }, {
@@ -17536,6 +18121,9 @@ var practiceODSCode = [{
 }, {
     "label": "CENTRAL MEDICAL CENTRE M86028",
     "value": "M86028"
+}, {
+    "label": "BEEHIVE SURGERY P82616",
+    "value": "P82616"
 }, {
     "label": "ASHTON GP SERVICE Y02586",
     "value": "Y02586"
@@ -17591,6 +18179,9 @@ var practiceODSCode = [{
     "label": "HILLTOP MEDICAL PRACTICE E84637",
     "value": "E84637"
 }, {
+    "label": "DENABY MEDICAL PRACTICE C86616",
+    "value": "C86616"
+}, {
     "label": "BOUSFIELD - ROBERTS N82078",
     "value": "N82078"
 }, {
@@ -17627,6 +18218,9 @@ var practiceODSCode = [{
     "label": "CASTLE HEALTH CENTRE Y02669",
     "value": "Y02669"
 }, {
+    "label": "HAREHILLS CORNER SURGERY B86061",
+    "value": "B86061"
+}, {
     "label": "DR ME SILVER'S PRACTICE F85666",
     "value": "F85666"
 }, {
@@ -17636,6 +18230,9 @@ var practiceODSCode = [{
     "label": "WEST BROM P'SHIPS FOR HEALTH M88044",
     "value": "M88044"
 }, {
+    "label": "LEVER CHAMBERS 2 P82013",
+    "value": "P82013"
+}, {
     "label": "THE WHITSWOOD PRACTICE P84635",
     "value": "P84635"
 }, {
@@ -17644,6 +18241,12 @@ var practiceODSCode = [{
 }, {
     "label": "BILSTON FAMILY PRACTICE M92627",
     "value": "M92627"
+}, {
+    "label": "ABINGDON FAMILY HEALTH CARE CENTRE N82086",
+    "value": "N82086"
+}, {
+    "label": "AMAANAH MEDICAL PRACTICE Y01068",
+    "value": "Y01068"
 }, {
     "label": "LIME TREE SURGERY C84694",
     "value": "C84694"
@@ -17683,6 +18286,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR MUDIGONDA M92649",
     "value": "M92649"
+}, {
+    "label": "LITTLE HORTON LANE MEDICAL CENTRE - RAJA B83025",
+    "value": "B83025"
 }, {
     "label": "LINCOLN GREEN MEDICAL CENTRE B86675",
     "value": "B86675"
@@ -17728,6 +18334,9 @@ var practiceODSCode = [{
 }, {
     "label": "PALFREY HEALTH CENTRE M91621",
     "value": "M91621"
+}, {
+    "label": "GLADSTONE MED CTR N85031",
+    "value": "N85031"
 }, {
     "label": "GATE MEDICAL CENTRE M85170",
     "value": "M85170"
@@ -17789,6 +18398,9 @@ var practiceODSCode = [{
     "label": "NEWTON SURGERY B86666",
     "value": "B86666"
 }, {
+    "label": "QUEENS MEDICAL CENTRE P84640",
+    "value": "P84640"
+}, {
     "label": "FAMILY PRACTICE P81694",
     "value": "P81694"
 }, {
@@ -17824,6 +18436,9 @@ var practiceODSCode = [{
 }, {
     "label": "DRS RAUT AND THOUFEEQ B81631",
     "value": "B81631"
+}, {
+    "label": "BOLTON GENERAL PRACTICE Y02319",
+    "value": "Y02319"
 }, {
     "label": "STANLEY MEDICAL CENTRE N82651",
     "value": "N82651"
@@ -17918,6 +18533,9 @@ var practiceODSCode = [{
     "label": "SHAKESPEARE ROAD SURGERY C87608",
     "value": "C87608"
 }, {
+    "label": "OLDHAM MEDICAL SERVICES P85012",
+    "value": "P85012"
+}, {
     "label": "WILLIAM HOPWOOD STREET SURGERY P81707",
     "value": "P81707"
 }, {
@@ -17972,6 +18590,9 @@ var practiceODSCode = [{
     "label": "LATIMER HEALTH CENTRE F84719",
     "value": "F84719"
 }, {
+    "label": "THE GOLBORNE MEDICAL CENTRE E87024",
+    "value": "E87024"
+}, {
     "label": "STEPPING STONE PRACTICE P81167",
     "value": "P81167"
 }, {
@@ -17986,6 +18607,9 @@ var practiceODSCode = [{
 }, {
     "label": "KINGSMEAD HEALTHCARE F84015",
     "value": "F84015"
+}, {
+    "label": "THE PARK MEDICAL CENTRE P84045",
+    "value": "P84045"
 }, {
     "label": "MANOR PRIMARY CARE P81039",
     "value": "P81039"
@@ -18064,6 +18688,9 @@ var practiceODSCode = [{
 }, {
     "label": "TOWNSEND MEDICAL CENTRE N82052",
     "value": "N82052"
+}, {
+    "label": "THE KINGS FAMILY PRACTICE G82753",
+    "value": "G82753"
 }, {
     "label": "THE MACMILLAN SURGERY N83601",
     "value": "N83601"
@@ -18166,6 +18793,9 @@ var practiceODSCode = [{
 }, {
     "label": "DR CHIU, KOH AND GAN P84611",
     "value": "P84611"
+}, {
+    "label": "RAJ MEDICAL CENTRE B81656",
+    "value": "B81656"
 }, {
     "label": "BROWNLOW HEALTH AT KENSINGTON N82645",
     "value": "N82645"
@@ -18383,6 +19013,9 @@ var practiceODSCode = [{
     "label": "BRUCE GROVE PRIMARY HEALTH CARE CTR F85028",
     "value": "F85028"
 }, {
+    "label": "MANCHESTER MEDICAL P84616",
+    "value": "P84616"
+}, {
     "label": "WOLSELEY MEDICAL CENTRE B81047",
     "value": "B81047"
 }, {
@@ -18580,6 +19213,9 @@ var practiceODSCode = [{
 }, {
     "label": "GORTON MEDICAL CENTRE P84028",
     "value": "P84028"
+}, {
+    "label": "ST ANDREWS SURGERY B81027",
+    "value": "B81027"
 }, {
     "label": "SYDENHAM GROUP PRACTICE B81058",
     "value": "B81058"
@@ -18856,6 +19492,9 @@ var practiceODSCode = [{
 }, {
     "label": "ADELAIDE STREET SURGERY P81042",
     "value": "P81042"
+}, {
+    "label": "ST GEORGES MEDICAL CENTRE G82057",
+    "value": "G82057"
 }, {
     "label": "ST ANDREWS HEALTH CENTRE Y03023",
     "value": "Y03023"
