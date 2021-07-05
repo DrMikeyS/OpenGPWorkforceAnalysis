@@ -68,24 +68,24 @@ if (validateODS(ods)) {
                             'desc': 'FTE GPs'
                         },
                         {
-                            'code': 'TOTAL_GP_EXR_FTE',
-                            'desc': 'FTE GPs (excl trainees)'
-                        },
-                        {
-                            'code': 'TOTAL_GP_EXL_FTE',
-                            'desc': 'FTE GPs (excl locums)'
-                        },
-                        {
-                            'code': 'TOTAL_GP_EXRL_FTE',
-                            'desc': 'FTE GPs (excl locums + trainees)'
-                        },
-                        {
                             'code': 'TOTAL_GP_PTNR',
                             'desc': 'FTE GP Partners'
                         },
                         {
                             'code': 'TOTAL_GP_SAL',
                             'desc': 'FTE Salaried GPs'
+                        },
+                        {
+                            'code': 'TOTAL_GP_EXRL_FTE',
+                            'desc': 'FTE GPs (excl locums + trainees)'
+                        },
+                        {
+                            'code': 'TOTAL_GP_EXR_FTE',
+                            'desc': 'FTE GPs (excl trainees)'
+                        },
+                        {
+                            'code': 'TOTAL_GP_EXL_FTE',
+                            'desc': 'FTE GPs (excl locums)'
                         },
                         {
                             'code': 'TOTAL_GP_REG_ST1_4_FTE',
