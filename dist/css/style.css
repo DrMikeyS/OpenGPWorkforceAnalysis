@@ -91,6 +91,26 @@
     display: none;
 }
 
+#logosvg {
+    font-family: 'Hind Madurai', sans-serif;
+    width: 100%;
+}
+
+.navbar-brand {
+    width: 37%;
+    max-width: 350px;
+}
+
+.btn-outline-success {
+    color: #3D405B;
+    border-color: #3D405B;
+}
+
+#practice-name {
+    text-transform: capitalize;
+    min-height: 1.5em;
+}
+
 /*start spinner*/
 .lds-roller {
     display: inline-block;

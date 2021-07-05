@@ -1,16 +1,16 @@
         @media (max-width: 575.98px) {
-            .donut-wrapper {
-                top: 0px;
-                margin-bottom: 35px;
+
+            /* For mobile phones: */
+            .navbar-brand {
+                width: 75%;
+            }
+
+            #practice-name {
+                min-height: 3em;
             }
         }
 
-        @media (min-width: 992px) {
-            .donut-wrapper {
-                top: 0;
-                margin-bottom: 25px;
-            }
-        }
+        @media (min-width: 992px) {}
 
         @media (min-width: 576px) {
             .content-wrapper {
@@ -22,6 +22,8 @@
             .content-wrapper {
                 max-width: 720px;
             }
+
+
         }
 
         @media (min-width: 992px) {

@@ -32,25 +32,89 @@ switch (denominator) {
         break;
 }
 
-//Population dynamic modal links
-$('#need-index-link').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex")
-$('#total-population-link').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS")
-$('#raw-link').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw")
+denominators = [{
+        'value': "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex",
+        'desc': 'Weighted Population',
+        'code': 'needIndex'
+    },
+    {
+        'value': "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS",
+        'desc': 'Raw Population',
+        'code': 'TOTAL_PATIENTS'
+    },
+    {
+        'value': "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw",
+        'desc': 'None (i.e. raw numbers)',
+        'code': 'raw'
+    }
+]
 
-//Populate nav links
-$('#index-button').attr("href", "index.html?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator)
-$('#gp-button').attr("href", "index.html?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator)
-$('#nurse-button').attr("href", "index.html?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator)
-$('#other-button').attr("href", "index.html?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator)
-$('#admin-button').attr("href", "index.html?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator)
+var $denominator = $("#denominator");
+$.each(denominators, function () {
+    $denominator.append($("<option />").val(this.value).text(this.desc));
+});
+$denominator.val(denominators.filter(function (el) {
+    return el.code == denominator;
+})[0].value)
+
+$('#denominator').on('change', function () {
+    var url = $(this).val();
+    if (url) {
+        window.location = url;
+    }
+    return false;
+});
+
+pages = [{
+        'code': 'index',
+        'desc': 'Pracitce Summary',
+        'value': "index.html?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+    },
+    {
+        'code': 'gp',
+        'desc': 'GP Detailed Breakdown',
+        'value': "index.html?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+    },
+    {
+        'code': 'nurse',
+        'desc': 'Nurse Detailed Breakdown',
+        'value': "index.html?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+    },
+    {
+        'code': 'other',
+        'desc': 'Other Clinical Detailed Breakdown',
+        'value': "index.html?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+    },
+    {
+        'code': 'admin',
+        'desc': 'Admin Detailed Breakdown',
+        'value': "index.html?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+    }
+]
+
+var $view = $("#view");
+$.each(pages, function () {
+    $view.append($("<option />").val(this.value).text(this.desc));
+});
+$view.val(pages.filter(function (el) {
+    return el.code == page;
+})[0].value)
+
+$('#view').on('change', function () {
+    var url = $(this).val();
+    if (url) {
+        window.location = url;
+    }
+    return false;
+});
+
 
 //Set type
+$('#ccg').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=ccg&denominator=" + denominator)
+$('#nearest-neighbour').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=nearestNeighbour&denominator=" + denominator)
+
 if (comparitor == 'ccg') {
-    $('#comparison-type').html('CCG mode')
-    $('#change-comparison').html('Switch to Nearest Neighbour Mode')
-    $('#change-comparison').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=nearestNeighbour&denominator=" + denominator)
+    $('#ccg').removeClass("btn-outline-primary").addClass('btn-primary')
 } else {
-    $('#comparison-type').html('Nearest Neighbour mode')
-    $('#change-comparison').html('Switch to CCG Mode')
-    $('#change-comparison').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=ccg&denominator=" + denominator)
+    $('#nearest-neighbour').removeClass("btn-outline-primary").addClass('btn-primary')
 }

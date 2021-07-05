@@ -21,7 +21,7 @@ if (validateODS(ods)) {
 
                 //Set practice name
                 practice = data.find(o => o.PRAC_CODE === ods);
-                $('#practice-name').html(practice['PRAC_NAME'])
+                $('#practice-name').html(practice['PRAC_NAME'].toLowerCase())
 
                 setAxes()
 

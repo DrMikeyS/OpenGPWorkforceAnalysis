@@ -138,7 +138,6 @@ function generateCard(title, subtitle, chartelementid, yAxisKey, PRAC_CODE, colu
         <div class="card-header">
             <h5 class="m-0">` + title + `</h5>
             <h7 style="color:grey;">` + subtitle + `</h7><br>
-            <small style="color:grey;"><a href="#" data-toggle="modal" data-target="#exampleModal">Change Denominator</a></small>
         </div>
         <div class="card-body">
         <h7>Comparison to other practices</h7>
@@ -202,10 +201,10 @@ function generateCardSet(categories, ods, denominatorDesc, denominator, style) {
     });
 }
 
-function validateODS(ods){
-    if(ods!= null && ods.length==6){
+function validateODS(ods) {
+    if (ods != null && ods.length == 6) {
         return true
-    }else{
-    return false
+    } else {
+        return false
     }
-    }
+}
