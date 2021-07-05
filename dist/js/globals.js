@@ -33,17 +33,17 @@ switch (denominator) {
 }
 
 denominators = [{
-        'value': "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex",
+        'value': "practice.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex",
         'desc': 'Weighted Population',
         'code': 'needIndex'
     },
     {
-        'value': "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS",
+        'value': "practice.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS",
         'desc': 'Raw Population',
         'code': 'TOTAL_PATIENTS'
     },
     {
-        'value': "index.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw",
+        'value': "practice.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw",
         'desc': 'None (i.e. raw numbers)',
         'code': 'raw'
     }
@@ -68,27 +68,27 @@ $('#denominator').on('change', function () {
 pages = [{
         'code': 'index',
         'desc': 'Pracitce Summary',
-        'value': "index.html?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "practice.html?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'gp',
         'desc': 'GP Detailed Breakdown',
-        'value': "index.html?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "practice.html?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'nurse',
         'desc': 'Nurse Detailed Breakdown',
-        'value': "index.html?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "practice.html?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'other',
         'desc': 'Other Clinical Detailed Breakdown',
-        'value': "index.html?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "practice.html?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'admin',
         'desc': 'Admin Detailed Breakdown',
-        'value': "index.html?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "practice.html?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     }
 ]
 
@@ -110,8 +110,8 @@ $('#view').on('change', function () {
 
 
 //Set type
-$('#ccg').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=ccg&denominator=" + denominator)
-$('#nearest-neighbour').attr("href", "index.html?page=" + page + "&ods=" + ods + "&comparitor=nearestNeighbour&denominator=" + denominator)
+$('#ccg').attr("href", "practice.html?page=" + page + "&ods=" + ods + "&comparitor=ccg&denominator=" + denominator)
+$('#nearest-neighbour').attr("href", "practice.html?page=" + page + "&ods=" + ods + "&comparitor=nearestNeighbour&denominator=" + denominator)
 
 if (comparitor == 'ccg') {
     $('#ccg').removeClass("btn-outline-primary").addClass('btn-primary')

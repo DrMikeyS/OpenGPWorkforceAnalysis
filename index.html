@@ -31,7 +31,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
             <div class="container">
-                <a class="navbar-brand" href="#"> <svg viewBox="0 0 410 40" id="logosvg" height="50">
+                <a class="navbar-brand" href="index.html"> <svg viewBox="0 0 410 40" id="logosvg" height="50">
                         <text x="0" y="35" fill="#3D405B" style="font-size:40px;text-decoration:none;">Open</text>
                         <text x="94" y="35" fill="#E07A5F"
                             style="font-size:40px;text-decoration:none;">GPWorkforceData</text>
@@ -44,18 +44,11 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0 ml-auto">
+
+                    <form class="form-inline my-2 my-lg-0 ml-auto" action="practice.html">
                         <select class="form-control basicAutoSelect mr-1" name="ods" placeholder="Select Practice..."
                             autocomplete="off"></select>
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -66,69 +59,51 @@
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper mt-3">
-
-            <div class="container-fluid">
-                <h2 class="m-0 text-dark" id="practice-name"></h2>
-
-
-                <div class="alert alert-secondary" role="alert">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <label for="comparison-type">Compare to:</label><br>
-                            <div class="btn-group" role="group" aria-label="Basic example" id="comparison-type">
-                                <a id="nearest-neighbour" type="button" class="btn btn-outline-primary">Nearest
-                                    Neighbour</a>
-                                <a id="ccg" class="btn btn-outline-primary">CCG</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label for="denominator">Denominator</label>
-                                <select class="form-control" id="denominator"></select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label for="view">View</label>
-                                <select class="form-control" id="view"></select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Main content -->
             <div class="content">
                 <div class="container-fluid">
-
-                    <div id="spinner-container">
-                        <div class="lds-roller">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
+                    <div class="alert alert-secondary">
+                        <h3>Select a practice:</h3>
+                        <form class="form" action="practice.html">
+                            <div class="row">
+                                <div class="col-10">
+                                    <select class="form-control basicAutoSelect mr-1" name="ods"
+                                        placeholder="Select Practice..." autocomplete="off"></select>
+                                </div>
+                                <div class="col-2">
+                                    <button class="btn btn-block btn-outline-primary my-2 my-sm-0"
+                                        type="submit">Search</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3" id="col-1">
-
-                            <!-- CHART HOLDER-->
-                        </div>
-                        <div class="col-lg-3" id="col-2">
-                            <!-- CHART HOLDER-->
-                        </div>
-                        <div class="col-lg-3" id="col-3">
-                            <!-- CHART HOLDER-->
-                        </div>
-                        <div class="col-lg-3" id="col-4">
-                            <!-- CHART HOLDER-->
-                        </div>
-                    </div>
-                    <!-- /.row -->
+                    <h2>What is OpenGPWorkforceData?</h2>
+                    <p><span style="color: #231f20;">OpenGPWorkforceData is a tool to make it easy to understand a
+                            practice workforce structure and compare it to other similar or local practices. The
+                            intention is to support practices to make informed decisions on their recruitment strategies
+                            by being able to benchmark themselves with others.</span></p>
+                    <h2>Where does the data come from?</h2>
+                    <p><span style="color: #231f20;">Data on the makeup of the GP workforce is collected from every GP
+                            practice in England. </span><a
+                            href="https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/31-march-2021"
+                            target="_blank" rel="noopener">NHS Digital provides this data publicly</a><span
+                            style="color: #231f20;">. I have taken the releases from 2015-2021 and joined them into a
+                        </span><a href="data/PracticeData.zip" target="_blank" rel="noopener">single (massive)
+                            file</a><span style="color: #231f20;"> that powers this website.&nbsp;</span></p>
+                    <h2>How does this compare to the NHS Digital Dashboard?</h2>
+                    <p><span style="color: #231f20;">NHS Digital provides a </span><a
+                            href="https://app.powerbi.com/view?r=eyJrIjoiNTI4NTE1YTUtOTg2Yy00NTc2LTg3OTktZjQ1NzY2NGZlNDRjIiwidCI6IjUwZjYwNzFmLWJiZmUtNDAxYS04ODAzLTY3Mzc0OGU2MjllMiIsImMiOjh9"
+                            target="_blank" rel="noopener">General Practice Workforce interactive dashboard</a><span
+                            style="color: #231f20;">. While a useful tool, it doesn&rsquo;t allow easy benchmarking or
+                            viewing of historical trends, which are the main aims of this tool. They are both based on
+                            the same underlying data.</span></p>
+                    <h2>Can I ask something or make a suggestion?</h2>
+                    <p><span style="color: #231f20;">Sure! The tool is </span><a
+                            href="https://github.com/DrMikeyS/OpenGPWorkforceAnalysis" target="_blank"
+                            rel="noopener">open source</a><span style="color: #231f20;">. You can fork it and do your
+                            own thing, or drop a suggestion in the issues log. You can also reach out on </span><a
+                            href="https://twitter.com/drmikedsmith" target="_blank" rel="noopener">twitter</a><span
+                            style="color: #231f20;">.</span></p>
                 </div><!-- /.container-fluid -->
             </div>
             <!-- /.content -->
@@ -144,7 +119,6 @@
 
             </div>
             <!-- Default to the left -->
-            <strong>Developed by Michael Smith</strong>
         </footer>
     </div>
     <!-- ./wrapper -->
@@ -165,14 +139,6 @@
     <script type="text/javascript" src="dist/js/globals.js"></script>
     <script type="text/javascript" src="dist/js/odscodes.js"></script>
     <script type="text/javascript" src="dist/js/odslookup.js"></script>
-    <script type="text/javascript" src="dist/js/page_index.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-
 </body>
 
 </html>

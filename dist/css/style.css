@@ -101,14 +101,14 @@
     max-width: 350px;
 }
 
-.btn-outline-success {
-    color: #3D405B;
-    border-color: #3D405B;
-}
 
 #practice-name {
     text-transform: capitalize;
     min-height: 1.5em;
+}
+
+h2 {
+    color: #E07A5F;
 }
 
 /*start spinner*/
