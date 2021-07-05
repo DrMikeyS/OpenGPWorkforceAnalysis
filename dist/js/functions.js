@@ -134,7 +134,7 @@ function generateBarChart(yAxisKey, PRAC_CODE, elementID, denominator) {
 
 function generateCard(title, subtitle, chartelementid, yAxisKey, PRAC_CODE, column, style, denominator = 'needIndex') {
     html = `<!-- Start Card-->
-    <div class="card card-primary card-outline ` + style + `-card">
+    <div class="card card-primary card-outline ` + style + `-card mb-2">
         <div class="card-header">
             <h5 class="m-0">` + title + `</h5>
             <h7 style="color:grey;">` + subtitle + `</h7><br>
