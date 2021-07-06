@@ -27,7 +27,7 @@ if (validateODS(ods)) {
 
                 if (page == 'index') {
                     //Create Cards
-                    generateCard('FTE GPs',
+                    generateCard('FTE GPs (inc. F2, SpR & Locum)',
                         denominatorDesc,
                         'GPFTE',
                         'TOTAL_GP_FTE',
