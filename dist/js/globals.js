@@ -67,7 +67,7 @@ $('#denominator').on('change', function () {
 
 pages = [{
         'code': 'index',
-        'desc': 'Pracitce Summary',
+        'desc': 'Practice Summary',
         'value': "practice.html?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
