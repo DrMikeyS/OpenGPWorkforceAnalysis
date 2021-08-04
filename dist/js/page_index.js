@@ -1,6 +1,6 @@
 if (validateODS(ods)) {
     $('#spinner-container').show()
-    fetch('https://us-central1-opengpworkforcedata.cloudfunctions.net/practice?page=' + page + '&ods=' + ods + '&comparitor=' + comparitor)
+    fetch('https://storage.googleapis.com/opengpworkforcedata.appspot.com/' + ods + '_' + page + '_' + comparitor + '.json')
         .then(function (resp) {
             resp.json().then(function (json) {
                 $('#spinner-container').hide()
