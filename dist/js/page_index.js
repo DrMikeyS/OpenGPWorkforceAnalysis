@@ -1,6 +1,6 @@
 if (validateODS(ods)) {
     $('#spinner-container').show()
-    fetch('https://storage.googleapis.com/opengpworkforcedata.appspot.com/' + ods + '_' + page + '_' + comparitor + '.json')
+    fetch('https://storage.googleapis.com/opengpworkforcedata.appspot.com/files/' + ods + '_' + page + '_' + comparitor + '.json')
         .then(function (resp) {
             resp.json().then(function (json) {
                 $('#spinner-container').hide()
@@ -27,10 +27,10 @@ if (validateODS(ods)) {
 
                 if (page == 'index') {
                     //Create Cards
-                    generateCard('FTE GPs (inc. F2, SpR & Locum)',
+                    generateCard('FTE GPs (excl. F2, SpR & Locum)',
                         denominatorDesc,
                         'GPFTE',
-                        'TOTAL_GP_FTE',
+                        'TOTAL_GP_EXRL_FTE',
                         ods,
                         1,
                         "gp",
