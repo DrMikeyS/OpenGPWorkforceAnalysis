@@ -1,0 +1,20 @@
+<script type="text/javascript" src="dist/js/odscodes.js"></script>
+<script>
+  function getQuery() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    return urlParams;
+  }
+  ods = getQuery().get("ods");
+
+  let org = practiceODSCode.find((o) => o.value === ods);
+
+  if (org.OrgType == "PCN") {
+    window.location.replace("PCN.html?ods=" + ods);
+  } else if (org.OrgType == "Practice") {
+    window.location.replace("practice.html?ods=" + ods);
+  }
+</script>
+
+<h1>Error</h1>
+<p>Have you selected a valid practice?</p>

@@ -1,128 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <title>Health Data Insights</title>
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
     <!-- Theme style -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Madurai">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"
-        integrity="sha512-VCHVc5miKoln972iJPvkQrUYYq7XpxXzvqNfiul1H4aZDwGBGC0lq373KNleaB2LpnC2a/iNfE5zoRYmB4TRDQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="dist/css/style.css">
-    <link rel="stylesheet" href="dist/css/style-mobile.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Hind+Madurai"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"
+      integrity="sha512-VCHVc5miKoln972iJPvkQrUYYq7XpxXzvqNfiul1H4aZDwGBGC0lq373KNleaB2LpnC2a/iNfE5zoRYmB4TRDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/style-mobile.css" />
+  </head>
 
-</head>
-
-<body class="hold-transition sidebar-collapse">
+  <body class="hold-transition sidebar-collapse">
     <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <svg viewBox="0 0 410 40" id="logosvg" height="50">
+              <text
+                x="0"
+                y="35"
+                fill="#000"
+                style="font-size: 40px; text-decoration: none"
+              >
+                Health
+              </text>
+              <text
+                x="110"
+                y="35"
+                fill="#000"
+                style="font-size: 40px; text-decoration: none"
+              >
+                Data
+              </text>
+              <text
+                x="190"
+                y="35"
+                fill="#007bff"
+                style="font-size: 40px; text-decoration: none"
+              >
+                Insights
+              </text>
+            </svg></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"> <svg viewBox="0 0 410 40" id="logosvg" height="50">
-                        <text x="0" y="35" fill="#000" style="font-size:40px;text-decoration:none;">Health</text>
-                        <text x="110" y="35" fill="#000" style="font-size:40px;text-decoration:none;">Data</text>
-                        <text x="190" y="35" fill="#007bff" style="font-size:40px;text-decoration:none;">Insights</text>
-                    </svg></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-                    <form class="form-inline my-2 my-lg-0 ml-auto" action="practice.html">
-                        <select class="form-control basicAutoSelect mr-1" name="ods" placeholder="Select Practice..."
-                            autocomplete="off"></select>
-                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-        <!-- /.navbar -->
-
-        <!-- Main Sidebar Container -->
-
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper mt-3">
-            <!-- Main content -->
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="alert alert-secondary">
-                        <h3>Select a practice:</h3>
-                        <form class="form" action="practice.html">
-                            <div class="row">
-                                <div class="col-lg-10">
-                                    <select class="form-control basicAutoSelect mr-1" name="ods"
-                                        placeholder="Select Practice..." autocomplete="off"></select>
-                                </div>
-                                <div class="col-lg-2">
-                                    <button class="btn btn-block btn-outline-primary my-2 my-sm-0"
-                                        type="submit">Search</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <h2>What is HealthDataInsights?</h2>
-                    <p><span style="color: #231f20;">HealthDataInsights is a tool to make it easy to understand a
-                            NHS Data. The initial
-                            intention is to support GP practices to make informed decisions on their recruitment
-                            strategies
-                            by being able to benchmark themselves with others.</span></p>
-                    <h2>Where does the data come from?</h2>
-                    <p><span style="color: #231f20;">Data on the makeup of the GP workforce is collected from every GP
-                            practice in England. </span><a
-                            href="https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/31-march-2021"
-                            target="_blank" rel="noopener">NHS Digital provides this data publicly</a><span
-                            style="color: #231f20;">. I have taken the releases from 2015-2021 and joined them into a
-                        </span><a href="data/PracticeData.zip" target="_blank" rel="noopener">single (massive)
-                            file</a><span style="color: #231f20;"> that powers this website.&nbsp;</span></p>
-                    <h2>How does this compare to the NHS Digital Dashboard?</h2>
-                    <p><span style="color: #231f20;">NHS Digital provides a </span><a
-                            href="https://app.powerbi.com/view?r=eyJrIjoiNTI4NTE1YTUtOTg2Yy00NTc2LTg3OTktZjQ1NzY2NGZlNDRjIiwidCI6IjUwZjYwNzFmLWJiZmUtNDAxYS04ODAzLTY3Mzc0OGU2MjllMiIsImMiOjh9"
-                            target="_blank" rel="noopener">General Practice Workforce interactive dashboard</a><span
-                            style="color: #231f20;">. While a useful tool, it doesn&rsquo;t allow easy benchmarking or
-                            viewing of historical trends, which are the main aims of this tool. They are both based on
-                            the same underlying data.</span></p>
-                    <h2>Can I ask something or make a suggestion?</h2>
-                    <p><span style="color: #231f20;">Sure! The tool is </span><a
-                            href="https://github.com/DrMikeyS/OpenGPWorkforceAnalysis" target="_blank"
-                            rel="noopener">open source</a><span style="color: #231f20;">. You can fork it and do your
-                            own thing, or drop a suggestion in the issues log. You can also reach out on </span><a
-                            href="https://twitter.com/drmikedsmith" target="_blank" rel="noopener">twitter</a><span
-                            style="color: #231f20;">.</span></p>
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0 ml-auto" action="search.html">
+              <select
+                class="form-control basicAutoSelect mr-1"
+                name="ods"
+                placeholder="Select Practice..."
+                autocomplete="off"
+              ></select>
+              <button
+                class="btn btn-outline-primary my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
         </div>
-        <!-- /.content-wrapper -->
+      </nav>
+      <!-- /.navbar -->
 
+      <!-- Main Sidebar Container -->
 
-
-        <!-- Main Footer -->
-        <footer class="main-footer">
-            <!-- To the right -->
-            <div class="float-right d-none d-sm-inline">
-
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper mt-3">
+        <!-- Main content -->
+        <div class="content">
+          <div class="container-fluid">
+            <div class="alert alert-secondary">
+              <h3>Select a practice:</h3>
+              <form class="form" action="search.html">
+                <div class="row">
+                  <div class="col-lg-10">
+                    <select
+                      class="form-control basicAutoSelect mr-1"
+                      name="ods"
+                      placeholder="Select Practice..."
+                      autocomplete="off"
+                    ></select>
+                  </div>
+                  <div class="col-lg-2">
+                    <button
+                      class="btn btn-block btn-outline-primary my-2 my-sm-0"
+                      type="submit"
+                    >
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
-            <!-- Default to the left -->
-        </footer>
+            <h2>What is HealthDataInsights?</h2>
+            <p>
+              <span style="color: #231f20"
+                >HealthDataInsights is a tool to make it easy to understand a
+                NHS Data. The initial intention is to support GP practices to
+                make informed decisions on their recruitment strategies by being
+                able to benchmark themselves with others.</span
+              >
+            </p>
+            <h2>Where does the data come from?</h2>
+            <p>
+              <span style="color: #231f20"
+                >Data on the makeup of the GP workforce is collected from every
+                GP practice in England. </span
+              ><a
+                href="https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/31-march-2021"
+                target="_blank"
+                rel="noopener"
+                >NHS Digital provides this data publicly</a
+              ><span style="color: #231f20"
+                >. I have taken the releases from 2015-2021 and joined them into
+                a </span
+              ><a href="data/PracticeData.zip" target="_blank" rel="noopener"
+                >single (massive) file</a
+              ><span style="color: #231f20">
+                that powers this website.&nbsp;</span
+              >
+            </p>
+            <h2>How does this compare to the NHS Digital Dashboard?</h2>
+            <p>
+              <span style="color: #231f20">NHS Digital provides a </span
+              ><a
+                href="https://app.powerbi.com/view?r=eyJrIjoiNTI4NTE1YTUtOTg2Yy00NTc2LTg3OTktZjQ1NzY2NGZlNDRjIiwidCI6IjUwZjYwNzFmLWJiZmUtNDAxYS04ODAzLTY3Mzc0OGU2MjllMiIsImMiOjh9"
+                target="_blank"
+                rel="noopener"
+                >General Practice Workforce interactive dashboard</a
+              ><span style="color: #231f20"
+                >. While a useful tool, it doesn&rsquo;t allow easy benchmarking
+                or viewing of historical trends, which are the main aims of this
+                tool. They are both based on the same underlying data.</span
+              >
+            </p>
+            <h2>Can I ask something or make a suggestion?</h2>
+            <p>
+              <span style="color: #231f20">Sure! The tool is </span
+              ><a
+                href="https://github.com/DrMikeyS/OpenGPWorkforceAnalysis"
+                target="_blank"
+                rel="noopener"
+                >open source</a
+              ><span style="color: #231f20"
+                >. You can fork it and do your own thing, or drop a suggestion
+                in the issues log. You can also reach out on </span
+              ><a
+                href="https://twitter.com/drmikedsmith"
+                target="_blank"
+                rel="noopener"
+                >twitter</a
+              ><span style="color: #231f20">.</span>
+            </p>
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        <!-- To the right -->
+        <div class="float-right d-none d-sm-inline"></div>
+        <!-- Default to the left -->
+      </footer>
     </div>
     <!-- ./wrapper -->
-
 
     <!-- REQUIRED SCRIPTS -->
 
@@ -132,13 +214,10 @@
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
-    <script
-        src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js">
-    </script>
+    <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
     <script type="text/javascript" src="dist/js/functions.js"></script>
     <script type="text/javascript" src="dist/js/globals.js"></script>
     <script type="text/javascript" src="dist/js/odscodes.js"></script>
     <script type="text/javascript" src="dist/js/odslookup.js"></script>
-</body>
-
+  </body>
 </html>
