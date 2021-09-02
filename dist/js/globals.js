@@ -1,120 +1,198 @@
 //Globals
-var trenddata = []
+var trenddata = [];
 
 //Data from url
-ods = getQuery().get('ods')
-comparitor = getQuery().get('comparitor')
-denominator = getQuery().get('denominator')
-page = getQuery().get('page')
+ods = getQuery().get("ods");
+comparitor = getQuery().get("comparitor");
+denominator = getQuery().get("denominator");
+page = getQuery().get("page");
 
-if (comparitor != 'ccg' && comparitor != 'nearestNeighbour') {
-    comparitor = 'nearestNeighbour'
+if (comparitor != "ccg" && comparitor != "nearestNeighbour") {
+  comparitor = "nearestNeighbour";
 }
 
-if (denominator != 'needIndex' && denominator != 'TOTAL_PATIENTS' && denominator != 'raw') {
-    denominator = 'needIndex'
+if (
+  denominator != "needIndex" &&
+  denominator != "TOTAL_PATIENTS" &&
+  denominator != "raw"
+) {
+  denominator = "raw";
 }
 
-if (page != 'gp' && page != 'nurse' && page != 'admin' && page != 'other') {
-    page = 'index'
+if (page != "gp" && page != "nurse" && page != "admin" && page != "other") {
+  page = "index";
 }
 
 //Change add nicer denominator descriptions
 switch (denominator) {
-    case 'needIndex':
-        denominatorDesc = "Relative to weighted population"
-        break;
-    case 'TOTAL_PATIENTS':
-        denominatorDesc = "Relative to total population"
-        break;
-    case 'raw':
-        denominatorDesc = "Raw FTE numbers"
-        break;
+  case "needIndex":
+    denominatorDesc = "Relative to weighted population";
+    break;
+  case "TOTAL_PATIENTS":
+    denominatorDesc = "Relative to total population";
+    break;
+  case "raw":
+    denominatorDesc = "Raw FTE numbers";
+    break;
 }
 
-denominators = [{
-        'value': "?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex",
-        'desc': 'Weighted Population',
-        'code': 'needIndex'
-    },
-    {
-        'value': "?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS",
-        'desc': 'Raw Population',
-        'code': 'TOTAL_PATIENTS'
-    },
-    {
-        'value': "?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw",
-        'desc': 'None (i.e. raw numbers)',
-        'code': 'raw'
-    }
-]
+denominators = [
+  {
+    value:
+      "?page=" +
+      page +
+      "&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=needIndex",
+    desc: "Weighted Population",
+    code: "needIndex",
+  },
+  {
+    value:
+      "?page=" +
+      page +
+      "&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=TOTAL_PATIENTS",
+    desc: "Raw Population",
+    code: "TOTAL_PATIENTS",
+  },
+  {
+    value:
+      "?page=" +
+      page +
+      "&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=raw",
+    desc: "None (i.e. raw numbers)",
+    code: "raw",
+  },
+];
 
 var $denominator = $("#denominator");
 $.each(denominators, function () {
-    $denominator.append($("<option />").val(this.value).text(this.desc));
+  $denominator.append($("<option />").val(this.value).text(this.desc));
 });
-$denominator.val(denominators.filter(function (el) {
+$denominator.val(
+  denominators.filter(function (el) {
     return el.code == denominator;
-})[0].value)
+  })[0].value
+);
 
-$('#denominator').on('change', function () {
-    var url = $(this).val();
-    if (url) {
-        window.location = url;
-    }
-    return false;
+$("#denominator").on("change", function () {
+  var url = $(this).val();
+  if (url) {
+    window.location = url;
+  }
+  return false;
 });
 
-pages = [{
-        'code': 'index',
-        'desc': 'Practice Summary',
-        'value': "?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
-    },
-    {
-        'code': 'gp',
-        'desc': 'GP Detailed Breakdown',
-        'value': "?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
-    },
-    {
-        'code': 'nurse',
-        'desc': 'Nurse Detailed Breakdown',
-        'value': "?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
-    },
-    {
-        'code': 'other',
-        'desc': 'Other Clinical Detailed Breakdown',
-        'value': "?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
-    },
-    {
-        'code': 'admin',
-        'desc': 'Admin Detailed Breakdown',
-        'value': "?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
-    }
-]
+pages = [
+  {
+    code: "index",
+    desc: "Practice Summary",
+    value:
+      "?page=index&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=" +
+      denominator,
+  },
+  {
+    code: "gp",
+    desc: "GP Detailed Breakdown",
+    value:
+      "?page=gp&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=" +
+      denominator,
+  },
+  {
+    code: "nurse",
+    desc: "Nurse Detailed Breakdown",
+    value:
+      "?page=nurse&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=" +
+      denominator,
+  },
+  {
+    code: "other",
+    desc: "Other Clinical Detailed Breakdown",
+    value:
+      "?page=other&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=" +
+      denominator,
+  },
+  {
+    code: "admin",
+    desc: "Admin Detailed Breakdown",
+    value:
+      "?page=admin&ods=" +
+      ods +
+      "&comparitor=" +
+      comparitor +
+      "&denominator=" +
+      denominator,
+  },
+];
 
 var $view = $("#view");
 $.each(pages, function () {
-    $view.append($("<option />").val(this.value).text(this.desc));
+  $view.append($("<option />").val(this.value).text(this.desc));
 });
-$view.val(pages.filter(function (el) {
+$view.val(
+  pages.filter(function (el) {
     return el.code == page;
-})[0].value)
+  })[0].value
+);
 
-$('#view').on('change', function () {
-    var url = $(this).val();
-    if (url) {
-        window.location = url;
-    }
-    return false;
+$("#view").on("change", function () {
+  var url = $(this).val();
+  if (url) {
+    window.location = url;
+  }
+  return false;
 });
-
 
 //Set type
-$('#ccg').attr("href", "practice.html?page=" + page + "&ods=" + ods + "&comparitor=ccg&denominator=" + denominator)
-$('#nearest-neighbour').attr("href", "practice.html?page=" + page + "&ods=" + ods + "&comparitor=nearestNeighbour&denominator=" + denominator)
+$("#ccg").attr(
+  "href",
+  "practice.html?page=" +
+    page +
+    "&ods=" +
+    ods +
+    "&comparitor=ccg&denominator=" +
+    denominator
+);
+$("#nearest-neighbour").attr(
+  "href",
+  "practice.html?page=" +
+    page +
+    "&ods=" +
+    ods +
+    "&comparitor=nearestNeighbour&denominator=" +
+    denominator
+);
 
-if (comparitor == 'ccg') {
-    $('#ccg').removeClass("btn-outline-primary").addClass('btn-primary')
+if (comparitor == "ccg") {
+  $("#ccg").removeClass("btn-outline-primary").addClass("btn-primary");
 } else {
-    $('#nearest-neighbour').removeClass("btn-outline-primary").addClass('btn-primary')
+  $("#nearest-neighbour")
+    .removeClass("btn-outline-primary")
+    .addClass("btn-primary");
 }
