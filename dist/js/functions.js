@@ -8,7 +8,7 @@ function getQuery() {
 function backgroundColourGenerator(dataArray, PRAC_CODE) {
     backgroundColorArray = [];
     dataArray.forEach(element => {
-        if (element.PRAC_CODE == PRAC_CODE) {
+        if (element.PRAC_CODE == PRAC_CODE || element.ODS == PRAC_CODE) {
             backgroundColorArray.push('rgb(0, 94, 184,0.6)')
         } else {
             backgroundColorArray.push('rgb(100, 100, 100,0.6)')
@@ -91,12 +91,14 @@ function generateBarChart(yAxisKey, PRAC_CODE, elementID, denominator) {
     tdata = data.filter(x =>
         !isNaN(x[yAxisKey])
     );
+
     //Sort by the yAxisKey to make chart readable
     tdata.sort(function (a, b) {
         return Number(a[yAxisKey]) - Number(b[yAxisKey]);
     });
 
     backgroundColorArray = backgroundColourGenerator(tdata, PRAC_CODE);
+
     config = {
         type: 'bar',
         data: {
@@ -167,11 +169,17 @@ function generateCard(title, subtitle, chartelementid, yAxisKey, PRAC_CODE, colu
     }, 10);
 }
 
-function setAxes() {
+function setAxes(PCN = false) {
     //Set X-axis to be practice ODS code for bars
-    data.forEach(element => {
-        element.x = element.PRAC_NAME;
-    });
+    if (PCN) {
+        data.forEach(element => {
+            element.x = element['PCN Name'];
+        });
+    } else {
+        data.forEach(element => {
+            element.x = element.PRAC_NAME;
+        });
+    }
 
     //Set X-axis to be Date for trend
     trenddata.forEach(element => {
@@ -179,7 +187,7 @@ function setAxes() {
     });
 }
 
-function generateCardSet(categories, ods, denominatorDesc, denominator, style) {
+function generateCardSet(categories, ods, denominatorDesc, denominator, style, maxCols = 4) {
     i = -1;
     col = 1;
     categories.forEach(category => {
@@ -193,7 +201,7 @@ function generateCardSet(categories, ods, denominatorDesc, denominator, style) {
             style,
             denominator)
 
-        if (col < 4) {
+        if (col < maxCols) {
             col++
         } else {
             col = 1;

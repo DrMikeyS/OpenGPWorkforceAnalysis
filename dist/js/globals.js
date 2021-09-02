@@ -33,17 +33,17 @@ switch (denominator) {
 }
 
 denominators = [{
-        'value': "practice.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex",
+        'value': "?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=needIndex",
         'desc': 'Weighted Population',
         'code': 'needIndex'
     },
     {
-        'value': "practice.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS",
+        'value': "?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=TOTAL_PATIENTS",
         'desc': 'Raw Population',
         'code': 'TOTAL_PATIENTS'
     },
     {
-        'value': "practice.html?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw",
+        'value': "?page=" + page + "&ods=" + ods + "&comparitor=" + comparitor + "&denominator=raw",
         'desc': 'None (i.e. raw numbers)',
         'code': 'raw'
     }
@@ -68,27 +68,27 @@ $('#denominator').on('change', function () {
 pages = [{
         'code': 'index',
         'desc': 'Practice Summary',
-        'value': "practice.html?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "?page=index&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'gp',
         'desc': 'GP Detailed Breakdown',
-        'value': "practice.html?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "?page=gp&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'nurse',
         'desc': 'Nurse Detailed Breakdown',
-        'value': "practice.html?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "?page=nurse&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'other',
         'desc': 'Other Clinical Detailed Breakdown',
-        'value': "practice.html?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "?page=other&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     },
     {
         'code': 'admin',
         'desc': 'Admin Detailed Breakdown',
-        'value': "practice.html?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
+        'value': "?page=admin&ods=" + ods + "&comparitor=" + comparitor + "&denominator=" + denominator
     }
 ]
 
