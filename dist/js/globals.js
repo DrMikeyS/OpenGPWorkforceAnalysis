@@ -32,7 +32,7 @@ switch (denominator) {
     denominatorDesc = "Relative to total population";
     break;
   case "raw":
-    denominatorDesc = "Raw FTE numbers";
+    denominatorDesc = "Raw numbers";
     break;
 }
 
