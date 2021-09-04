@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <!-- Google Font: Source Sans Pro -->
+    <link
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
       rel="stylesheet"
     />
@@ -67,6 +68,7 @@
               </text>
             </svg></a
           >
+
           <button
             class="navbar-toggler"
             type="button"
@@ -80,6 +82,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a href="organisation-lookup.html">LookupTool</a>
             <form class="form-inline my-2 my-lg-0 ml-auto" action="search.html">
               <select
                 class="form-control basicAutoSelect mr-1"
@@ -106,13 +109,16 @@
         <!-- Main content -->
         <div class="content">
           <div class="container-fluid">
-            <h1>Organisation Lookup</h1>
-
+            <h1>Organisation LookupTool</h1>
+            <p>
+              Lookup the details of an NHS Practice, PCN, CCG or ICS and find
+              their population and links to parent and children organisations.
+            </p>
             <form class="form" action="organisation-lookup.html">
               <div class="row">
                 <div class="col-lg-10">
                   <select
-                    class="form-control mr-1"
+                    class="form-control mr-1 mb-2"
                     name="ods"
                     placeholder="Select Organisation..."
                     autocomplete="off"
@@ -187,6 +193,14 @@
 
               <tr></tr>
             </table>
+            <p>
+              If you are interested, the data that powers this can be downloaded
+              in a
+              <a
+                href="https://storage.googleapis.com/opengpworkforcedata.appspot.com/organisations.json"
+                >neat little JSON file</a
+              >.
+            </p>
           </div>
           <!-- /.container-fluid -->
         </div>
