@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+  <title>What is an IIF point worth for my PCN - Health Data Insights</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Madurai" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"
+    integrity="sha512-VCHVc5miKoln972iJPvkQrUYYq7XpxXzvqNfiul1H4aZDwGBGC0lq373KNleaB2LpnC2a/iNfE5zoRYmB4TRDQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="dist/css/style.css" />
+  <link rel="stylesheet" href="dist/css/style-mobile.css" />
+</head>
+
+<body class="hold-transition sidebar-collapse">
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <svg viewBox="0 0 410 40" id="logosvg" height="50">
+            <text x="0" y="35" fill="#000" style="font-size: 40px; text-decoration: none">
+              Health
+            </text>
+            <text x="110" y="35" fill="#000" style="font-size: 40px; text-decoration: none">
+              Data
+            </text>
+            <text x="190" y="35" fill="#007bff" style="font-size: 40px; text-decoration: none">
+              Insights
+            </text>
+          </svg></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a href="organisation-lookup.html">LookupTool</a>
+          <form class="form-inline my-2 my-lg-0 ml-auto" action="search.html">
+            <select class="form-control basicAutoSelect mr-1" name="ods" placeholder="Select Organisation..."
+              autocomplete="off"></select>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Main Sidebar Container -->
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper mt-3">
+      <!-- Main content -->
+      <div class="content">
+        <div class="container px-xl-5">
+
+          <h1>What is an IIF point worth for my PCN?</h1>
+          <p><em>8 September 2021</em></p>
+          <p><strong>The IIF scheme is roaring back to life this October, giving PCNs yet
+              more to think about and work on. Despite it&rsquo;s QOF-like nature, the way funding is allocated is
+              surprisingly even more complex. This article summarises how the funding works.</strong></p>
+
+          <h3>Point Achievement</h3>
+          <p>Starting with the easy bit: points win prizes. Each indicator is allocated a maximal
+            number of points that can be gained based on the performance of the PCN in that indicator. For most, there
+            is a minimum performance needed before any points are gained and after that, the points are allocated
+            proportional to the performance, up to a maximum.</p>
+
+          <p class="ml-5"><em><strong>Example</strong><br>
+              For social prescribing (indicator PC-01), the thresholds for points are
+              set at
+              0.8-1.2% of the PCN
+              population having been referred in the full financial year. Therefore, if 0.6% of patients are referred,
+              the
+              PCN earns 0 points. If 1.6% are referred, the PCN earns all 20 points. If 1.0% are referred, the PCN earns
+              10 points.</em></p>
+
+          <h3>Population &amp; Prevalence Adjustment</h3>
+          <p>Now it starts getting a bit tricky. What does a point really mean?
+            NHS England states a point is worth &pound;200. However, that is not the full story. That &pound;200 is the
+            amount per point an average sized PCN will get for an indicator, where they have an average disease
+            prevalence for that indicator.</p>
+
+          <p>The rationale is that it would not be fair for a PCN with 100k patients to be paid the same amount in
+            absolute terms as a PCN with 30k patients.</p>
+
+          <p>It would also be unfair for two PCNs with the same population to be paid the same for the learning
+            disability indicator if one PCN has a very large LD register and the other a very small register, as the PCN
+            with the larger register will need to do more work to achieve it .</p>
+
+          <p>Payments for each indicator are calculated by applying the following formula:</p>
+          <p class="text-center"><img src="img/formula.png"></p>
+
+          <p>The list size adjustment applies to all indicators. However, several indicators do not need a prevalence
+            adjustment, as they apply to the whole PCN population. Both adjustments will be based on the practice
+            population data from January 2022.</p>
+          <p>The following example helps to explain this:</p>
+
+          <p class="ml-5"><em><strong>Example</strong><br>Fictional PCN has a population of 70,000. For social
+              prescribing (PC-01), they have achieved all 20 points
+              by referring 1.3% of their patients to a social prescriber in the year. As the indicator applies to all
+              patients of any age, the register size is the same as the population size and therefore there is no
+              adjustment for prevalence (or adjustment=1). However, the PCN has a population which is 1.45 times the
+              national average, which is currently 48,274. Therefore, for the indicator, the PCN will be paid:
+              <br>
+              20 points
+              x
+              &pound;200 per point x 1.45 list size adjustment = &pound;5,800</em></p>
+
+
+
+          <p>For list size adjustment, the <strong>current PCN average population is: 48,274.</strong></p>
+
+          <h3>Thoughts on Prevalence Adjustments</h3>
+          <p>The national averages for prevalence adjustments are much harder to come
+            by. Some, such as the number of care home beds per PCN, are not available at all. Others could be estimated
+            by looking at QOF data from 2019, but this is likely to be out by some margin given the age of the data.
+            Most PCNs will have a broadly similar population mix, and therefore I think it is reasonable to base your
+            estimations on there not being a significant prevalence adjustment for any indicator. The exceptions to this
+            would be PCNs with atypical populations, such as having a large student population; an unusually old or
+            young population; a large number of care home beds; or a large LD register.</p>
+
+          <a href="IIF 2021-22.xlsx">Download Ready Reckoner Spreadsheet</a>
+
+          <p>I have published a &ldquo;ready reckoner&rdquo; that makes it easy to track your performance and estimates
+            the value of each indicator to your PCN. It adjusts the value of points using the above methodology to fit
+            your PCN population. It assumes that there are no prevalence adjustments, so if you do have one of the
+            atypical populations mentioned above, please bear that in mind. </p>
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+      <!-- To the right -->
+      <div class="float-right d-none d-sm-inline"></div>
+      <!-- Default to the left -->
+    </footer>
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED SCRIPTS -->
+
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js">
+  </script>
+  <script type="text/javascript" src="dist/js/functions.js"></script>
+  <script type="text/javascript" src="dist/js/globals.js"></script>
+  <script type="text/javascript" src="dist/js/odscodes.js"></script>
+  <script type="text/javascript" src="dist/js/odslookup.js"></script>
+</body>
+
+</html>
